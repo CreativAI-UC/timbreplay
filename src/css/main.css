@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Pridi";
+  src: url("../assets/Pridi-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  z-index: 0;
+
+  font-family: 'Pridi';
+  font-style: normal;
+  font-weight: normal;
+
+  background: #1a1110;
+
+}
+
+.axis-grid line,
+.axis-grid .tick {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.34);
+  stroke-width: 1px;
+}
+
+
+.grid path {
+  stroke-width: 0;
+}
+
+.dot {
+  stroke: #000;
+}
+#fullscreen-button {
+  position: fixed;
+  top: 30px;
+  right: 50px;
+  z-index: 1;
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 66%; /* aspect ratio */
+  vertical-align: top;
+
+  overflow: hidden;
+}
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#control-box {
+  /* Auto Layout */
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+
+  position: absolute;
+  width: 420px;
+  height: 470px;
+  left: 66px;
+  top: 131px;
+  overflow-y: scroll;
+
+  background: #1a1110;
+  border: 2px solid rgba(64, 64, 64, 0.59);
+  box-sizing: border-box;
+}
+
+#title-text {
+  position: absolute;
+  width: 343px;
+  height: 80px;
+  left: 50px;
+  top: 25px;
+
+  font-family: 'Pridi';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 87px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+
