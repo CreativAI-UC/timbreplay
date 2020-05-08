@@ -4,6 +4,7 @@ import "../css/main.css"
 import Data from "../data/iris.csv"
 import "./interactions.js"
 import "../assets/grip-lines-1white.svg"
+import "normalize.css"
 
 const width = 600
 const height = 400
