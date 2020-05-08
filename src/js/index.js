@@ -6,18 +6,21 @@ import "./interactions.js"
 import "../assets/grip-lines-1white.svg"
 import "normalize.css"
 
-const width = 600
-const height = 400
+const width = window.innerWidth
+const height = window.innerHeight
+
+
 // append the svg object to the body of the page
 var svg = d3
   .select("#dataviz")
   .append("div")
   // Container class to make it responsive.
   .classed("svg-container", true)
+  .style('padding-bottom',String((height/width)*100)+'%')
   .append("svg")
   // Responsive SVG needs these 2 attributes and no width and height attr.
   .attr("preserveAspectRatio", "xMinYMin meet")
-  .attr("viewBox", "0 0 600 400")
+  .attr("viewBox", "0 0 "+width+" "+height)
   // Class to make it responsive.
   .classed("svg-content-responsive", true)
   .append("g")
