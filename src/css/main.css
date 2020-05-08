@@ -96,3 +96,52 @@ body {
 }
 
 
+
+
+
+
+
+#button-container {
+  /* Auto Layout */
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+
+  position: static;
+  width: 420px;
+  height: 70px;
+  left: 0px;
+  top: 30px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: flex-start;
+  margin: 0px 0px;
+}
+
+#button-container button {
+  position: static;
+  width: 140px;
+  height: 70px;
+  left: 280px;
+  top: 0px;
+
+  border: 2px solid rgba(64, 64, 64, 0.59);
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 2;
+  align-self: center;
+  margin: 0px 0px;
+
+  font-family: "Pridi";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 40px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background-color: transparent;
+}
