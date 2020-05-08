@@ -3,7 +3,6 @@
   src: url("../assets/Pridi-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
-  
 }
 
 body {
@@ -13,12 +12,11 @@ body {
   margin: 0;
   z-index: 0;
 
-  font-family: 'Pridi';
+  font-family: "Pridi";
   font-style: normal;
   font-weight: normal;
 
   background: #1a1110;
-
 }
 
 .axis-grid line,
@@ -27,7 +25,6 @@ body {
   stroke: rgba(255, 255, 255, 0.34);
   stroke-width: 1px;
 }
-
 
 .grid path {
   stroke-width: 0;
@@ -64,6 +61,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0px;
+  z-index: 1;
 
   position: absolute;
   width: 420px;
@@ -84,7 +82,7 @@ body {
   left: 50px;
   top: 25px;
 
-  font-family: 'Pridi';
+  font-family: "Pridi";
   font-style: normal;
   font-weight: 300;
   font-size: 56px;
@@ -95,11 +93,27 @@ body {
   color: #ffffff;
 }
 
+#drag-section {
+  /* Auto Layout */
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
 
+  position: static;
+  width: 420px;
+  height: 30px;
+  left: 0px;
+  top: 0px;
 
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 0px;
 
-
-
+  cursor: move;
+  z-index: 2;
+}
 
 #button-container {
   /* Auto Layout */
