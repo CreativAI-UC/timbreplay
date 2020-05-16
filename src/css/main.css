@@ -65,10 +65,10 @@ body {
 
   position: absolute;
   width: 420px;
-  height: 470px;
+  height: 500px;
   left: 66px;
   top: 131px;
-  overflow-y: scroll;
+  overflow: hidden;
 
   background: #1a1110;
   border: 2px solid rgba(64, 64, 64, 0.59);
@@ -129,7 +129,6 @@ body {
 
   /* Inside Auto Layout */
   flex: none;
-  order: 1;
   align-self: flex-start;
   margin: 0px 0px;
 }
@@ -145,7 +144,6 @@ body {
 
   /* Inside Auto Layout */
   flex: none;
-  order: 2;
   align-self: center;
   margin: 0px 0px;
 
@@ -158,4 +156,162 @@ body {
   text-align: center;
   color: #ffffff;
   background-color: transparent;
+}
+
+.hide {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+#box-content {
+  position: static;
+  width: 420px;
+  height: 400px;
+  left: 0px;
+  top: 100px;
+  overflow-y: scroll;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 2;
+  align-self: flex-end;
+  margin: 0px 0px;
+  background-color: transparent;
+}
+
+/* inside #box-content */
+.box-fill {
+  /* Auto Layout */
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+div.check-row {
+  /* Auto Layout */
+  display: flex;
+  flex-direction: row;
+  padding: 10px 15px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.row-element-check {
+  /* Auto Layout */
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+
+  position: static;
+
+  /* Inside Auto Layout */
+  flex: none;
+  align-self: flex-start;
+}
+
+.check-row label,
+.check-row input {
+  font-family: Pridi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+  padding: 0 8px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: center;
+  margin: 5px 0px;
+}
+
+div#box-content p {
+  font-family: Pridi;
+  font-style: normal;
+  color: #ffffff;
+}
+
+div#box-filter p, div#box-legend p {
+    font-weight: normal;
+  font-size: 26px;
+  line-height: 40px;
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+}
+
+div#box-legend {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+div#box-legend > div {
+  justify-self: center;
+}
+#box-create {
+  padding: 127px 97px;
+}
+
+#box-create button {
+  /* Auto Layout */
+  display: flex;
+  flex-direction: column;
+  padding: 22px 44px;
+
+  position: static;
+  width: 168px;
+  height: 73px;
+  left: 126px;
+  top: 127px;
+
+  background: #c83b3b;
+  box-shadow: 0px 4px 4px rgba(188, 60, 60, 0.71);
+  border-radius: 20px;
+
+  font-family: "Pridi";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 40px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  border: 0;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 20px;
+  margin-bottom: 20px;
+}
+
+#record-text.helper-text{
+  position: static;
+width: 153px;
+height: 20px;
+left: 133.5px;
+top: 220px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: center;
+margin: 0px 20px;
+}
+p.helper-text {
+  font-family: Pridi;
+font-style: italic;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
 }

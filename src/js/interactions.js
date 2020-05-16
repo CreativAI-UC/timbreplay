@@ -91,3 +91,21 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+function SelectBox(elementidx){
+  const content_boxes = document.querySelectorAll("div#box-content > div")
+  console.log(content_boxes);
+  
+  content_boxes.forEach(elem=>elem.classList.add("hide"))
+  if (elementidx==1){
+    content_boxes[0].classList.remove("hide")
+  }
+  if (elementidx == 2) {
+    content_boxes[1].classList.remove("hide")
+  }
+  if (elementidx == 3) {
+    content_boxes[2].classList.remove("hide")
+  }
+}
+
+window.SelectBox = SelectBox
