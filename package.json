@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
-    "start": "webpack-dev-server --open "
+    "start": "webpack-dev-server --open ",
+    "deploy":"aws s3 sync build s3://timbreplay/"
   },
   "author": "Matias Andrade",
   "license": "ISC",
