@@ -5,7 +5,7 @@ import Data from "../data/iris.csv"
 import "./interactions.js"
 import "../assets/grip-lines-1white.svg"
 import "normalize.css"
-
+import "./constants.js"
 const width = window.innerWidth
 const height = window.innerHeight
 
