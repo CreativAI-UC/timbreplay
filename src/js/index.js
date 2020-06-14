@@ -1,11 +1,12 @@
 import * as d3 from "d3"
-import  "../index.html"
+import "../index.html"
 import "../css/main.css"
 import Data from "../data/iris.csv"
 import "./interactions.js"
 import "../assets/grip-lines-1white.svg"
 import "normalize.css"
 import "./constants.js"
+import  {addPoint, toggleRec} from "./recording"
 const width = window.innerWidth
 const height = window.innerHeight
 
@@ -75,3 +76,5 @@ d3.csv(Data).then((data) => {
     })
 })
 
+d3.select("#dataviz").on("click",addPoint(d3,svg))
+document.getElementById("record-button").addEventListener("click",toggleRec)
