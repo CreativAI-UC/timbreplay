@@ -186,6 +186,7 @@ body {
   text-align: center;
   color: #ffffff;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .hide {
@@ -200,7 +201,8 @@ body {
   height: 400px;
   left: 0px;
   top: 100px;
-  overflow-y: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
 
   /* Inside Auto Layout */
   flex: none;
@@ -232,12 +234,10 @@ div.row-element-check {
   display: flex;
   flex-direction: row;
   padding: 0px;
+  flex: 1 1 0px;
 
   position: static;
-
-  /* Inside Auto Layout */
-  flex: none;
-  align-self: flex-start;
+  justify-content: center;
 }
 
 .check-row label,
@@ -266,8 +266,9 @@ div#box-content p {
   color: #ffffff;
 }
 
-div#box-filter p, div#box-legend p {
-    font-weight: normal;
+div#box-filter p,
+div#box-legend p {
+  font-weight: normal;
   font-size: 26px;
   line-height: 40px;
   padding-left: 25px;
