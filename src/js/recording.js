@@ -1,20 +1,55 @@
 export let RECORDING = false
-let CHORD_COUNT=1
+let CHORD_COUNT = 1
+const DOMAIN = "http://127.0.0.1:8000"
 
-export function addPoint(d3, svg) {
+async function fetchAudio(x, y) {
+  const requestOptions = {
+    headers: {
+      Pragma: "no-cache",
+      "Cache-Control": "no-cache",
+      "Access-Control-Allow-Origin":"*"
+    },
+    method: "GET",
+  }
+  let esc = encodeURIComponent
+  return fetch(
+    DOMAIN + "/generate?x=" + esc(x) + "&y=" + esc(y),
+    requestOptions
+  ).then((res) => {
+    if (!res.ok) throw new Error(`${res.status} = ${res.statusText}`) // response.body is a readable stream.
+    // Calling getReader() gives us exclusive access to
+    // the stream's content      
+    const reader = res.body.getReader();
+    // read() returns a promise that resolves
+    // when a value has been received      
+    return reader.read().then((result) => {
+      return result
+    })
+  })
+}
+
+export function addPoint(d3, svg,scaleX,scaleY) {
   return function () {
     if (RECORDING) {
       const mouse = d3.mouse(this)
+      const clickedX = scaleX.invert( mouse[0])
+      const clickedY = scaleY.invert(mouse[1])
 
       svg
         .append("circle")
         .attr("cx", mouse[0])
         .attr("cy", mouse[1])
-        .attr("r", 5)
-        .attr("fill", "#039BE5")
-        .attr("stroke", "#039BE5")
-        .attr("stroke-width", "1px")
+        .attr("r", 15)
+        .attr("fill", "#de8a0d")
 
+      fetchAudio(clickedX, clickedY).then((response) => {
+        // response.value for fetch streams is a Uint8Array
+        var blob = new Blob([response.value], { type: "audio/wav" })
+        var url = window.URL.createObjectURL(blob)
+        window.audio = new Audio()
+        window.audio.src = url
+        window.audio.play()
+      })
 
       const box = document.querySelector("#box-record")
       const template = document.querySelector("#chord-template")
@@ -24,7 +59,7 @@ export function addPoint(d3, svg) {
       const row = clone.querySelector("p.chord-name")
       row.innerHTML = `Note ${CHORD_COUNT}`
       box.appendChild(clone)
-      CHORD_COUNT+=1
+      CHORD_COUNT += 1
     }
   }
 }
@@ -39,10 +74,9 @@ export function toggleRec() {
 
   const recording_label = document.querySelector("#recording-label")
 
-  if (!RECORDING){
+  if (!RECORDING) {
     recording_label.classList.add("hide")
-  }else{
+  } else {
     recording_label.classList.remove("hide")
   }
 }
-

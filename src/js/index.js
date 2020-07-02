@@ -29,8 +29,8 @@ var svg = d3
   .classed("svg-content-responsive", true)
   .append("g")
 
-const x = d3.scaleLinear().domain([4, 8]).range([0, width])
-const y = d3.scaleLinear().domain([0, 9]).range([height, 0])
+const x = d3.scaleLinear().domain([-20, 40]).range([0, width])
+const y = d3.scaleLinear().domain([-50, 20]).range([height, 0])
 const xAxis = d3.axisBottom(x)
 const yAxis = d3.axisLeft(y)
 const xAxisGrid = d3.axisBottom(x).tickSize(-height).tickFormat("").ticks(16)
@@ -79,5 +79,5 @@ d3.csv(Data).then((data) => {
     })
 })
 
-d3.select("#dataviz").on("click",addPoint(d3,svg))
+d3.select("#dataviz").on("click",addPoint(d3,svg,x,y))
 document.getElementById("record-button").addEventListener("click",toggleRec)
