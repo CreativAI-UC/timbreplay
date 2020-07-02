@@ -189,6 +189,10 @@ body {
   cursor: pointer;
 }
 
+#button-container button.selected {
+   background-color: grey;
+}
+
 .hide {
   position: absolute !important;
   top: -9999px !important;

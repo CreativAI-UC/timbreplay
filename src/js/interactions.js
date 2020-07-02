@@ -99,19 +99,23 @@ function dragElement(elmnt) {
 
 function SelectBox(elementidx) {
   const content_boxes = document.querySelectorAll("div#box-content > div")
-  console.log(RECORDING)
+  const box_buttons = document.querySelectorAll("div#button-container > button")
 
   content_boxes.forEach((elem) => elem.classList.add("hide"))
+  box_buttons.forEach((elem) => elem.classList.remove("selected"))
   if (elementidx == 1) {
     content_boxes[0].classList.remove("hide")
+    box_buttons[0].classList.add("selected")
   }
   if (elementidx == 2) {
     content_boxes[1].classList.remove("hide")
+    box_buttons[1].classList.add("selected")
   }
   if (elementidx == 3) {
-    
+    box_buttons[2].classList.add("selected")
     if (!RECORDING){
     content_boxes[2].classList.remove("hide")
+    
     }else{
       content_boxes[3].classList.remove("hide")
     }
