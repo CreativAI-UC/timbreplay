@@ -6,6 +6,10 @@ import "./interactions.js"
 import "../assets/grip-lines-1white.svg"
 import "normalize.css"
 import "./constants.js"
+import "core-js-bundle"
+import "regenerator-runtime/runtime"
+
+// import "regenerator-runtime/runtime"
 import  {addPoint, toggleRec} from "./recording"
 const width = window.innerWidth
 const height = window.innerHeight
