@@ -21,12 +21,16 @@
       <img src="./assets/grip-lines-1white.svg" alt="Grip lines">
     </div>
     <div id="button-container">
-      <button onclick="SelectBox(1)" class="selected">Filter</button>
-      <button onclick="SelectBox(2)">Legend</button>
-      <button onclick="SelectBox(3)">Create</button>
+      <button onclick="SelectBox(1)" class="selected" >Create</button>
+      <button onclick="SelectBox(2)">Filter</button>
+      <button onclick="SelectBox(3)">Legend</button>
     </div>
     <div id="box-content">
-      <div id="box-filter" class="box-fill">
+      <div id="box-create" class="box-fill">
+        <button id="record-button">Record</button>
+        <p id="record-text" class="helper-text">or press ctrl+R to record</p>
+      </div>
+      <div id="box-filter" class="box-fill hide">
         <p>Dynamics:</p>
         <div class="check-row">
           <div class="row-element-check">
@@ -117,10 +121,6 @@
         
       </div>
       <div id="box-legend" class="box-fill hide"> </div>
-      <div id="box-create" class="box-fill hide">
-        <button id="record-button">Record</button>
-        <p id="record-text" class="helper-text">or press ctrl+R to record</p>
-      </div>
       <div id="box-record" class="box-fill hide">
         <div id="record-control">
           <div id="play-button">
@@ -169,7 +169,7 @@
               </svg>
             </div>
             <p class="chord-name"></p>
-            <div class="chord-play">
+            <div class="chord-play" onclick="playSound(this)">
               <svg xml:space="preserve" viewBox="0 0 100 100" y="0" x="0" xmlns="http://www.w3.org/2000/svg" id="圖層_1"
                 version="1.1" width="128px" height="128px" xmlns:xlink="http://www.w3.org/1999/xlink"
                 style="width:100%;height:100%;background-color:transparent;animation-play-state:paused">
