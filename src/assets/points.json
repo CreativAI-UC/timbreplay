@@ -1,0 +1,4502 @@
+[
+  {
+    "name": "C2_f_0.wav",
+    "chord": "C2",
+    "values": [
+      -12.2173481,
+      -53.42784119
+    ],
+    "dynamic": "f",
+    "iteration": "0"
+  },
+  {
+    "name": "C2_f_1.wav",
+    "chord": "C2",
+    "values": [
+      -11.71474361,
+      -45.04086304
+    ],
+    "dynamic": "f",
+    "iteration": "1"
+  },
+  {
+    "name": "C2_f_2.wav",
+    "chord": "C2",
+    "values": [
+      -13.92682457,
+      -45.13005066
+    ],
+    "dynamic": "f",
+    "iteration": "2"
+  },
+  {
+    "name": "C2_f_3.wav",
+    "chord": "C2",
+    "values": [
+      -11.86637402,
+      -48.99420547
+    ],
+    "dynamic": "f",
+    "iteration": "3"
+  },
+  {
+    "name": "C2_f_4.wav",
+    "chord": "C2",
+    "values": [
+      -13.35767746,
+      -53.68505859
+    ],
+    "dynamic": "f",
+    "iteration": "4"
+  },
+  {
+    "name": "C2_f_5.wav",
+    "chord": "C2",
+    "values": [
+      -13.43287849,
+      -50.6430397
+    ],
+    "dynamic": "f",
+    "iteration": "5"
+  },
+  {
+    "name": "C2_f_6.wav",
+    "chord": "C2",
+    "values": [
+      -16.22379875,
+      -46.76610565
+    ],
+    "dynamic": "f",
+    "iteration": "6"
+  },
+  {
+    "name": "C2_f_7.wav",
+    "chord": "C2",
+    "values": [
+      -13.49660683,
+      -46.50271606
+    ],
+    "dynamic": "f",
+    "iteration": "7"
+  },
+  {
+    "name": "C2_f_8.wav",
+    "chord": "C2",
+    "values": [
+      -11.61773872,
+      -42.88119507
+    ],
+    "dynamic": "f",
+    "iteration": "8"
+  },
+  {
+    "name": "C2_f_9.wav",
+    "chord": "C2",
+    "values": [
+      -12.36320972,
+      -51.07502747
+    ],
+    "dynamic": "f",
+    "iteration": "9"
+  },
+  {
+    "name": "C2_m_0.wav",
+    "chord": "C2",
+    "values": [
+      18.24648094,
+      10.58374882
+    ],
+    "dynamic": "m",
+    "iteration": "0"
+  },
+  {
+    "name": "C2_m_1.wav",
+    "chord": "C2",
+    "values": [
+      16.7252388,
+      9.99670982
+    ],
+    "dynamic": "m",
+    "iteration": "1"
+  },
+  {
+    "name": "C2_m_2.wav",
+    "chord": "C2",
+    "values": [
+      17.5428791,
+      10.25696659
+    ],
+    "dynamic": "m",
+    "iteration": "2"
+  },
+  {
+    "name": "C2_m_3.wav",
+    "chord": "C2",
+    "values": [
+      17.88736153,
+      10.46508312
+    ],
+    "dynamic": "m",
+    "iteration": "3"
+  },
+  {
+    "name": "C2_m_4.wav",
+    "chord": "C2",
+    "values": [
+      16.27749252,
+      10.23733044
+    ],
+    "dynamic": "m",
+    "iteration": "4"
+  },
+  {
+    "name": "C2_m_5.wav",
+    "chord": "C2",
+    "values": [
+      11.8546114,
+      8.39933014
+    ],
+    "dynamic": "m",
+    "iteration": "5"
+  },
+  {
+    "name": "C2_m_6.wav",
+    "chord": "C2",
+    "values": [
+      14.78567123,
+      9.772192
+    ],
+    "dynamic": "m",
+    "iteration": "6"
+  },
+  {
+    "name": "C2_m_7.wav",
+    "chord": "C2",
+    "values": [
+      15.92290878,
+      9.59187603
+    ],
+    "dynamic": "m",
+    "iteration": "7"
+  },
+  {
+    "name": "C2_m_8.wav",
+    "chord": "C2",
+    "values": [
+      12.81753254,
+      8.40633774
+    ],
+    "dynamic": "m",
+    "iteration": "8"
+  },
+  {
+    "name": "C2_m_9.wav",
+    "chord": "C2",
+    "values": [
+      15.64566326,
+      10.17410374
+    ],
+    "dynamic": "m",
+    "iteration": "9"
+  },
+  {
+    "name": "C2_p_0.wav",
+    "chord": "C2",
+    "values": [
+      -1.91166162,
+      3.2541573
+    ],
+    "dynamic": "p",
+    "iteration": "0"
+  },
+  {
+    "name": "C2_p_1.wav",
+    "chord": "C2",
+    "values": [
+      -2.10250449,
+      3.29202771
+    ],
+    "dynamic": "p",
+    "iteration": "1"
+  },
+  {
+    "name": "C2_p_2.wav",
+    "chord": "C2",
+    "values": [
+      -1.49499369,
+      3.52551842
+    ],
+    "dynamic": "p",
+    "iteration": "2"
+  },
+  {
+    "name": "C2_p_3.wav",
+    "chord": "C2",
+    "values": [
+      -1.88896549,
+      3.59526491
+    ],
+    "dynamic": "p",
+    "iteration": "3"
+  },
+  {
+    "name": "C2_p_4.wav",
+    "chord": "C2",
+    "values": [
+      -1.94386101,
+      1.70075166
+    ],
+    "dynamic": "p",
+    "iteration": "4"
+  },
+  {
+    "name": "C2_p_5.wav",
+    "chord": "C2",
+    "values": [
+      -2.34262681,
+      1.4797796
+    ],
+    "dynamic": "p",
+    "iteration": "5"
+  },
+  {
+    "name": "C2_p_6.wav",
+    "chord": "C2",
+    "values": [
+      -2.18501425,
+      1.27839363
+    ],
+    "dynamic": "p",
+    "iteration": "6"
+  },
+  {
+    "name": "C2_p_7.wav",
+    "chord": "C2",
+    "values": [
+      -2.00628519,
+      1.86993599
+    ],
+    "dynamic": "p",
+    "iteration": "7"
+  },
+  {
+    "name": "C2_p_8.wav",
+    "chord": "C2",
+    "values": [
+      -2.29777908,
+      1.57169092
+    ],
+    "dynamic": "p",
+    "iteration": "8"
+  },
+  {
+    "name": "C2_p_9.wav",
+    "chord": "C2",
+    "values": [
+      -1.87174237,
+      1.41545737
+    ],
+    "dynamic": "p",
+    "iteration": "9"
+  },
+  {
+    "name": "Dm2_f_0.wav",
+    "chord": "Dm2",
+    "values": [
+      26.89511108,
+      -16.02422905
+    ],
+    "dynamic": "f",
+    "iteration": "0"
+  },
+  {
+    "name": "Dm2_f_1.wav",
+    "chord": "Dm2",
+    "values": [
+      31.65027809,
+      -22.52119827
+    ],
+    "dynamic": "f",
+    "iteration": "1"
+  },
+  {
+    "name": "Dm2_f_2.wav",
+    "chord": "Dm2",
+    "values": [
+      27.76051521,
+      -18.11224747
+    ],
+    "dynamic": "f",
+    "iteration": "2"
+  },
+  {
+    "name": "Dm2_f_3.wav",
+    "chord": "Dm2",
+    "values": [
+      26.94339561,
+      -16.66254997
+    ],
+    "dynamic": "f",
+    "iteration": "3"
+  },
+  {
+    "name": "Dm2_f_4.wav",
+    "chord": "Dm2",
+    "values": [
+      23.4269619,
+      -14.07368851
+    ],
+    "dynamic": "f",
+    "iteration": "4"
+  },
+  {
+    "name": "Dm2_f_5.wav",
+    "chord": "Dm2",
+    "values": [
+      27.24737358,
+      -17.00627899
+    ],
+    "dynamic": "f",
+    "iteration": "5"
+  },
+  {
+    "name": "Dm2_f_6.wav",
+    "chord": "Dm2",
+    "values": [
+      28.58533478,
+      -18.90283966
+    ],
+    "dynamic": "f",
+    "iteration": "6"
+  },
+  {
+    "name": "Dm2_f_7.wav",
+    "chord": "Dm2",
+    "values": [
+      29.52337456,
+      -18.01593971
+    ],
+    "dynamic": "f",
+    "iteration": "7"
+  },
+  {
+    "name": "Dm2_f_8.wav",
+    "chord": "Dm2",
+    "values": [
+      25.68712616,
+      -15.55785561
+    ],
+    "dynamic": "f",
+    "iteration": "8"
+  },
+  {
+    "name": "Dm2_f_9.wav",
+    "chord": "Dm2",
+    "values": [
+      27.35815048,
+      -14.66597366
+    ],
+    "dynamic": "f",
+    "iteration": "9"
+  },
+  {
+    "name": "Dm2_m_0.wav",
+    "chord": "Dm2",
+    "values": [
+      11.26480293,
+      10.56611824
+    ],
+    "dynamic": "m",
+    "iteration": "0"
+  },
+  {
+    "name": "Dm2_m_1.wav",
+    "chord": "Dm2",
+    "values": [
+      11.23191452,
+      11.96812725
+    ],
+    "dynamic": "m",
+    "iteration": "1"
+  },
+  {
+    "name": "Dm2_m_2.wav",
+    "chord": "Dm2",
+    "values": [
+      15.49497318,
+      15.67319298
+    ],
+    "dynamic": "m",
+    "iteration": "2"
+  },
+  {
+    "name": "Dm2_m_3.wav",
+    "chord": "Dm2",
+    "values": [
+      12.51424599,
+      12.89605045
+    ],
+    "dynamic": "m",
+    "iteration": "3"
+  },
+  {
+    "name": "Dm2_m_4.wav",
+    "chord": "Dm2",
+    "values": [
+      13.86877155,
+      13.69041348
+    ],
+    "dynamic": "m",
+    "iteration": "4"
+  },
+  {
+    "name": "Dm2_m_5.wav",
+    "chord": "Dm2",
+    "values": [
+      15.01961136,
+      15.93065739
+    ],
+    "dynamic": "m",
+    "iteration": "5"
+  },
+  {
+    "name": "Dm2_m_6.wav",
+    "chord": "Dm2",
+    "values": [
+      14.93118572,
+      14.76393986
+    ],
+    "dynamic": "m",
+    "iteration": "6"
+  },
+  {
+    "name": "Dm2_m_7.wav",
+    "chord": "Dm2",
+    "values": [
+      14.52966595,
+      15.85314941
+    ],
+    "dynamic": "m",
+    "iteration": "7"
+  },
+  {
+    "name": "Dm2_m_8.wav",
+    "chord": "Dm2",
+    "values": [
+      13.74594116,
+      13.63041973
+    ],
+    "dynamic": "m",
+    "iteration": "8"
+  },
+  {
+    "name": "Dm2_m_9.wav",
+    "chord": "Dm2",
+    "values": [
+      13.7160778,
+      14.95490074
+    ],
+    "dynamic": "m",
+    "iteration": "9"
+  },
+  {
+    "name": "Dm2_p_0.wav",
+    "chord": "Dm2",
+    "values": [
+      -3.21467352,
+      2.96994615
+    ],
+    "dynamic": "p",
+    "iteration": "0"
+  },
+  {
+    "name": "Dm2_p_1.wav",
+    "chord": "Dm2",
+    "values": [
+      -3.14531779,
+      2.42408633
+    ],
+    "dynamic": "p",
+    "iteration": "1"
+  },
+  {
+    "name": "Dm2_p_2.wav",
+    "chord": "Dm2",
+    "values": [
+      -3.77907038,
+      3.77858162
+    ],
+    "dynamic": "p",
+    "iteration": "2"
+  },
+  {
+    "name": "Dm2_p_3.wav",
+    "chord": "Dm2",
+    "values": [
+      -2.66601014,
+      3.07837033
+    ],
+    "dynamic": "p",
+    "iteration": "3"
+  },
+  {
+    "name": "Dm2_p_4.wav",
+    "chord": "Dm2",
+    "values": [
+      -3.42379832,
+      2.82087612
+    ],
+    "dynamic": "p",
+    "iteration": "4"
+  },
+  {
+    "name": "Dm2_p_5.wav",
+    "chord": "Dm2",
+    "values": [
+      -3.44760156,
+      2.85311556
+    ],
+    "dynamic": "p",
+    "iteration": "5"
+  },
+  {
+    "name": "Dm2_p_6.wav",
+    "chord": "Dm2",
+    "values": [
+      -3.2782371,
+      2.00179648
+    ],
+    "dynamic": "p",
+    "iteration": "6"
+  },
+  {
+    "name": "Dm2_p_7.wav",
+    "chord": "Dm2",
+    "values": [
+      -3.63048911,
+      3.20423245
+    ],
+    "dynamic": "p",
+    "iteration": "7"
+  },
+  {
+    "name": "Dm2_p_8.wav",
+    "chord": "Dm2",
+    "values": [
+      -3.45255804,
+      2.22334433
+    ],
+    "dynamic": "p",
+    "iteration": "8"
+  },
+  {
+    "name": "Dm2_p_9.wav",
+    "chord": "Dm2",
+    "values": [
+      -3.18859744,
+      2.90814972
+    ],
+    "dynamic": "p",
+    "iteration": "9"
+  },
+  {
+    "name": "Em2_f_0.wav",
+    "chord": "Em2",
+    "values": [
+      -0.93830436,
+      -48.8366394
+    ],
+    "dynamic": "f",
+    "iteration": "0"
+  },
+  {
+    "name": "Em2_f_1.wav",
+    "chord": "Em2",
+    "values": [
+      2.83027172,
+      -46.25749588
+    ],
+    "dynamic": "f",
+    "iteration": "1"
+  },
+  {
+    "name": "Em2_f_2.wav",
+    "chord": "Em2",
+    "values": [
+      1.32540119,
+      -44.99617386
+    ],
+    "dynamic": "f",
+    "iteration": "2"
+  },
+  {
+    "name": "Em2_f_3.wav",
+    "chord": "Em2",
+    "values": [
+      3.34550023,
+      -51.83745193
+    ],
+    "dynamic": "f",
+    "iteration": "3"
+  },
+  {
+    "name": "Em2_f_4.wav",
+    "chord": "Em2",
+    "values": [
+      3.21234322,
+      -38.91868591
+    ],
+    "dynamic": "f",
+    "iteration": "4"
+  },
+  {
+    "name": "Em2_f_5.wav",
+    "chord": "Em2",
+    "values": [
+      1.52501941,
+      -43.73622894
+    ],
+    "dynamic": "f",
+    "iteration": "5"
+  },
+  {
+    "name": "Em2_f_6.wav",
+    "chord": "Em2",
+    "values": [
+      0.57258093,
+      -39.57027435
+    ],
+    "dynamic": "f",
+    "iteration": "6"
+  },
+  {
+    "name": "Em2_f_7.wav",
+    "chord": "Em2",
+    "values": [
+      -0.46243018,
+      -45.41772461
+    ],
+    "dynamic": "f",
+    "iteration": "7"
+  },
+  {
+    "name": "Em2_f_8.wav",
+    "chord": "Em2",
+    "values": [
+      0.06155989,
+      -46.34100342
+    ],
+    "dynamic": "f",
+    "iteration": "8"
+  },
+  {
+    "name": "Em2_f_9.wav",
+    "chord": "Em2",
+    "values": [
+      2.67896676,
+      -50.78596115
+    ],
+    "dynamic": "f",
+    "iteration": "9"
+  },
+  {
+    "name": "Em2_m_0.wav",
+    "chord": "Em2",
+    "values": [
+      10.83608246,
+      8.46971989
+    ],
+    "dynamic": "m",
+    "iteration": "0"
+  },
+  {
+    "name": "Em2_m_1.wav",
+    "chord": "Em2",
+    "values": [
+      11.32182407,
+      8.52800846
+    ],
+    "dynamic": "m",
+    "iteration": "1"
+  },
+  {
+    "name": "Em2_m_2.wav",
+    "chord": "Em2",
+    "values": [
+      11.66888332,
+      9.11474133
+    ],
+    "dynamic": "m",
+    "iteration": "2"
+  },
+  {
+    "name": "Em2_m_3.wav",
+    "chord": "Em2",
+    "values": [
+      11.85600281,
+      9.21234703
+    ],
+    "dynamic": "m",
+    "iteration": "3"
+  },
+  {
+    "name": "Em2_m_4.wav",
+    "chord": "Em2",
+    "values": [
+      12.0023241,
+      9.92792702
+    ],
+    "dynamic": "m",
+    "iteration": "4"
+  },
+  {
+    "name": "Em2_m_5.wav",
+    "chord": "Em2",
+    "values": [
+      11.63079548,
+      8.73736763
+    ],
+    "dynamic": "m",
+    "iteration": "5"
+  },
+  {
+    "name": "Em2_m_6.wav",
+    "chord": "Em2",
+    "values": [
+      12.42061234,
+      9.2880249
+    ],
+    "dynamic": "m",
+    "iteration": "6"
+  },
+  {
+    "name": "Em2_m_7.wav",
+    "chord": "Em2",
+    "values": [
+      11.15497589,
+      7.59854603
+    ],
+    "dynamic": "m",
+    "iteration": "7"
+  },
+  {
+    "name": "Em2_m_8.wav",
+    "chord": "Em2",
+    "values": [
+      11.24080944,
+      10.0924511
+    ],
+    "dynamic": "m",
+    "iteration": "8"
+  },
+  {
+    "name": "Em2_m_9.wav",
+    "chord": "Em2",
+    "values": [
+      9.90228939,
+      6.98053932
+    ],
+    "dynamic": "m",
+    "iteration": "9"
+  },
+  {
+    "name": "Em2_p_0.wav",
+    "chord": "Em2",
+    "values": [
+      -4.29958916,
+      3.02737904
+    ],
+    "dynamic": "p",
+    "iteration": "0"
+  },
+  {
+    "name": "Em2_p_1.wav",
+    "chord": "Em2",
+    "values": [
+      -3.4134419,
+      2.53534794
+    ],
+    "dynamic": "p",
+    "iteration": "1"
+  },
+  {
+    "name": "Em2_p_2.wav",
+    "chord": "Em2",
+    "values": [
+      -3.27655196,
+      3.17211342
+    ],
+    "dynamic": "p",
+    "iteration": "2"
+  },
+  {
+    "name": "Em2_p_3.wav",
+    "chord": "Em2",
+    "values": [
+      -4.01903105,
+      1.95893645
+    ],
+    "dynamic": "p",
+    "iteration": "3"
+  },
+  {
+    "name": "Em2_p_4.wav",
+    "chord": "Em2",
+    "values": [
+      -3.42392683,
+      2.80577707
+    ],
+    "dynamic": "p",
+    "iteration": "4"
+  },
+  {
+    "name": "Em2_p_5.wav",
+    "chord": "Em2",
+    "values": [
+      -3.72474146,
+      2.56269193
+    ],
+    "dynamic": "p",
+    "iteration": "5"
+  },
+  {
+    "name": "Em2_p_6.wav",
+    "chord": "Em2",
+    "values": [
+      -4.05492592,
+      1.90642214
+    ],
+    "dynamic": "p",
+    "iteration": "6"
+  },
+  {
+    "name": "Em2_p_7.wav",
+    "chord": "Em2",
+    "values": [
+      -3.68962169,
+      2.60524678
+    ],
+    "dynamic": "p",
+    "iteration": "7"
+  },
+  {
+    "name": "Em2_p_8.wav",
+    "chord": "Em2",
+    "values": [
+      -3.92098498,
+      1.80653703
+    ],
+    "dynamic": "p",
+    "iteration": "8"
+  },
+  {
+    "name": "Em2_p_9.wav",
+    "chord": "Em2",
+    "values": [
+      -3.99440598,
+      2.50844502
+    ],
+    "dynamic": "p",
+    "iteration": "9"
+  },
+  {
+    "name": "F2_f_0.wav",
+    "chord": "F2",
+    "values": [
+      25.49603462,
+      -13.57191849
+    ],
+    "dynamic": "f",
+    "iteration": "0"
+  },
+  {
+    "name": "F2_f_1.wav",
+    "chord": "F2",
+    "values": [
+      30.65438271,
+      -17.59603691
+    ],
+    "dynamic": "f",
+    "iteration": "1"
+  },
+  {
+    "name": "F2_f_2.wav",
+    "chord": "F2",
+    "values": [
+      40.12178421,
+      -22.89160728
+    ],
+    "dynamic": "f",
+    "iteration": "2"
+  },
+  {
+    "name": "F2_f_3.wav",
+    "chord": "F2",
+    "values": [
+      39.95503998,
+      -22.8304882
+    ],
+    "dynamic": "f",
+    "iteration": "3"
+  },
+  {
+    "name": "F2_f_4.wav",
+    "chord": "F2",
+    "values": [
+      33.45073318,
+      -18.87189102
+    ],
+    "dynamic": "f",
+    "iteration": "4"
+  },
+  {
+    "name": "F2_f_5.wav",
+    "chord": "F2",
+    "values": [
+      22.87119865,
+      -11.84153271
+    ],
+    "dynamic": "f",
+    "iteration": "5"
+  },
+  {
+    "name": "F2_f_6.wav",
+    "chord": "F2",
+    "values": [
+      21.32808304,
+      -11.09685707
+    ],
+    "dynamic": "f",
+    "iteration": "6"
+  },
+  {
+    "name": "F2_f_7.wav",
+    "chord": "F2",
+    "values": [
+      28.93185616,
+      -16.35971832
+    ],
+    "dynamic": "f",
+    "iteration": "7"
+  },
+  {
+    "name": "F2_f_8.wav",
+    "chord": "F2",
+    "values": [
+      23.23587608,
+      -12.94190216
+    ],
+    "dynamic": "f",
+    "iteration": "8"
+  },
+  {
+    "name": "F2_f_9.wav",
+    "chord": "F2",
+    "values": [
+      33.15267944,
+      -17.02415657
+    ],
+    "dynamic": "f",
+    "iteration": "9"
+  },
+  {
+    "name": "F2_m_0.wav",
+    "chord": "F2",
+    "values": [
+      10.89489651,
+      14.45539284
+    ],
+    "dynamic": "m",
+    "iteration": "0"
+  },
+  {
+    "name": "F2_m_1.wav",
+    "chord": "F2",
+    "values": [
+      8.76969624,
+      11.94575977
+    ],
+    "dynamic": "m",
+    "iteration": "1"
+  },
+  {
+    "name": "F2_m_2.wav",
+    "chord": "F2",
+    "values": [
+      9.46168709,
+      11.21127605
+    ],
+    "dynamic": "m",
+    "iteration": "2"
+  },
+  {
+    "name": "F2_m_3.wav",
+    "chord": "F2",
+    "values": [
+      6.5886817,
+      10.24654198
+    ],
+    "dynamic": "m",
+    "iteration": "3"
+  },
+  {
+    "name": "F2_m_4.wav",
+    "chord": "F2",
+    "values": [
+      9.9477644,
+      13.67871761
+    ],
+    "dynamic": "m",
+    "iteration": "4"
+  },
+  {
+    "name": "F2_m_5.wav",
+    "chord": "F2",
+    "values": [
+      9.18158913,
+      11.526577
+    ],
+    "dynamic": "m",
+    "iteration": "5"
+  },
+  {
+    "name": "F2_m_6.wav",
+    "chord": "F2",
+    "values": [
+      9.9476862,
+      12.76555824
+    ],
+    "dynamic": "m",
+    "iteration": "6"
+  },
+  {
+    "name": "F2_m_7.wav",
+    "chord": "F2",
+    "values": [
+      6.34830904,
+      10.08831215
+    ],
+    "dynamic": "m",
+    "iteration": "7"
+  },
+  {
+    "name": "F2_m_8.wav",
+    "chord": "F2",
+    "values": [
+      7.20961094,
+      9.58844852
+    ],
+    "dynamic": "m",
+    "iteration": "8"
+  },
+  {
+    "name": "F2_m_9.wav",
+    "chord": "F2",
+    "values": [
+      10.19238472,
+      10.05867672
+    ],
+    "dynamic": "m",
+    "iteration": "9"
+  },
+  {
+    "name": "F2_p_0.wav",
+    "chord": "F2",
+    "values": [
+      -4.32298088,
+      4.27311087
+    ],
+    "dynamic": "p",
+    "iteration": "0"
+  },
+  {
+    "name": "F2_p_1.wav",
+    "chord": "F2",
+    "values": [
+      -4.32298088,
+      4.27311087
+    ],
+    "dynamic": "p",
+    "iteration": "1"
+  },
+  {
+    "name": "F2_p_2.wav",
+    "chord": "F2",
+    "values": [
+      -3.8816576,
+      3.53136921
+    ],
+    "dynamic": "p",
+    "iteration": "2"
+  },
+  {
+    "name": "F2_p_3.wav",
+    "chord": "F2",
+    "values": [
+      -4.29136419,
+      3.55080032
+    ],
+    "dynamic": "p",
+    "iteration": "3"
+  },
+  {
+    "name": "F2_p_4.wav",
+    "chord": "F2",
+    "values": [
+      -4.08491421,
+      2.82033753
+    ],
+    "dynamic": "p",
+    "iteration": "4"
+  },
+  {
+    "name": "F2_p_5.wav",
+    "chord": "F2",
+    "values": [
+      -3.73520613,
+      2.75834417
+    ],
+    "dynamic": "p",
+    "iteration": "5"
+  },
+  {
+    "name": "F2_p_6.wav",
+    "chord": "F2",
+    "values": [
+      -4.04968166,
+      2.83671165
+    ],
+    "dynamic": "p",
+    "iteration": "6"
+  },
+  {
+    "name": "F2_p_7.wav",
+    "chord": "F2",
+    "values": [
+      -3.91492367,
+      3.4051981
+    ],
+    "dynamic": "p",
+    "iteration": "7"
+  },
+  {
+    "name": "F2_p_8.wav",
+    "chord": "F2",
+    "values": [
+      -3.57299399,
+      2.89641428
+    ],
+    "dynamic": "p",
+    "iteration": "8"
+  },
+  {
+    "name": "F2_p_9.wav",
+    "chord": "F2",
+    "values": [
+      -3.55064511,
+      3.83818984
+    ],
+    "dynamic": "p",
+    "iteration": "9"
+  },
+  {
+    "name": "G2_f_0.wav",
+    "chord": "G2",
+    "values": [
+      7.66188335,
+      -35.5737915
+    ],
+    "dynamic": "f",
+    "iteration": "0"
+  },
+  {
+    "name": "G2_f_1.wav",
+    "chord": "G2",
+    "values": [
+      10.54852009,
+      -42.52397919
+    ],
+    "dynamic": "f",
+    "iteration": "1"
+  },
+  {
+    "name": "G2_f_2.wav",
+    "chord": "G2",
+    "values": [
+      5.62045097,
+      -27.31892395
+    ],
+    "dynamic": "f",
+    "iteration": "2"
+  },
+  {
+    "name": "G2_f_3.wav",
+    "chord": "G2",
+    "values": [
+      7.36650562,
+      -36.31008148
+    ],
+    "dynamic": "f",
+    "iteration": "3"
+  },
+  {
+    "name": "G2_f_4.wav",
+    "chord": "G2",
+    "values": [
+      7.9929781,
+      -33.36968231
+    ],
+    "dynamic": "f",
+    "iteration": "4"
+  },
+  {
+    "name": "G2_f_5.wav",
+    "chord": "G2",
+    "values": [
+      9.71142769,
+      -42.19101334
+    ],
+    "dynamic": "f",
+    "iteration": "5"
+  },
+  {
+    "name": "G2_f_6.wav",
+    "chord": "G2",
+    "values": [
+      10.93744373,
+      -46.19552231
+    ],
+    "dynamic": "f",
+    "iteration": "6"
+  },
+  {
+    "name": "G2_f_7.wav",
+    "chord": "G2",
+    "values": [
+      4.11446476,
+      -35.7700386
+    ],
+    "dynamic": "f",
+    "iteration": "7"
+  },
+  {
+    "name": "G2_f_8.wav",
+    "chord": "G2",
+    "values": [
+      6.90447378,
+      -35.71305847
+    ],
+    "dynamic": "f",
+    "iteration": "8"
+  },
+  {
+    "name": "G2_f_9.wav",
+    "chord": "G2",
+    "values": [
+      7.54196167,
+      -37.78313065
+    ],
+    "dynamic": "f",
+    "iteration": "9"
+  },
+  {
+    "name": "G2_m_0.wav",
+    "chord": "G2",
+    "values": [
+      9.99687481,
+      8.59100723
+    ],
+    "dynamic": "m",
+    "iteration": "0"
+  },
+  {
+    "name": "G2_m_1.wav",
+    "chord": "G2",
+    "values": [
+      10.05755424,
+      7.65285635
+    ],
+    "dynamic": "m",
+    "iteration": "1"
+  },
+  {
+    "name": "G2_m_2.wav",
+    "chord": "G2",
+    "values": [
+      10.75356579,
+      8.60044098
+    ],
+    "dynamic": "m",
+    "iteration": "2"
+  },
+  {
+    "name": "G2_m_3.wav",
+    "chord": "G2",
+    "values": [
+      10.99473572,
+      9.34301853
+    ],
+    "dynamic": "m",
+    "iteration": "3"
+  },
+  {
+    "name": "G2_m_4.wav",
+    "chord": "G2",
+    "values": [
+      10.50551701,
+      8.58776188
+    ],
+    "dynamic": "m",
+    "iteration": "4"
+  },
+  {
+    "name": "G2_m_5.wav",
+    "chord": "G2",
+    "values": [
+      9.78502846,
+      9.04611778
+    ],
+    "dynamic": "m",
+    "iteration": "5"
+  },
+  {
+    "name": "G2_m_6.wav",
+    "chord": "G2",
+    "values": [
+      8.61872959,
+      8.83283138
+    ],
+    "dynamic": "m",
+    "iteration": "6"
+  },
+  {
+    "name": "G2_m_7.wav",
+    "chord": "G2",
+    "values": [
+      10.09477139,
+      9.25303078
+    ],
+    "dynamic": "m",
+    "iteration": "7"
+  },
+  {
+    "name": "G2_m_8.wav",
+    "chord": "G2",
+    "values": [
+      10.24153137,
+      8.52653599
+    ],
+    "dynamic": "m",
+    "iteration": "8"
+  },
+  {
+    "name": "G2_m_9.wav",
+    "chord": "G2",
+    "values": [
+      11.58761311,
+      9.38926506
+    ],
+    "dynamic": "m",
+    "iteration": "9"
+  },
+  {
+    "name": "G2_p_0.wav",
+    "chord": "G2",
+    "values": [
+      -1.58222032,
+      2.85708737
+    ],
+    "dynamic": "p",
+    "iteration": "0"
+  },
+  {
+    "name": "G2_p_1.wav",
+    "chord": "G2",
+    "values": [
+      -1.86171842,
+      2.70369554
+    ],
+    "dynamic": "p",
+    "iteration": "1"
+  },
+  {
+    "name": "G2_p_2.wav",
+    "chord": "G2",
+    "values": [
+      -1.8249588,
+      3.31054139
+    ],
+    "dynamic": "p",
+    "iteration": "2"
+  },
+  {
+    "name": "G2_p_3.wav",
+    "chord": "G2",
+    "values": [
+      -1.93498909,
+      3.07267141
+    ],
+    "dynamic": "p",
+    "iteration": "3"
+  },
+  {
+    "name": "G2_p_4.wav",
+    "chord": "G2",
+    "values": [
+      -1.86791193,
+      3.25218225
+    ],
+    "dynamic": "p",
+    "iteration": "4"
+  },
+  {
+    "name": "G2_p_5.wav",
+    "chord": "G2",
+    "values": [
+      -1.79121232,
+      3.2972877
+    ],
+    "dynamic": "p",
+    "iteration": "5"
+  },
+  {
+    "name": "G2_p_6.wav",
+    "chord": "G2",
+    "values": [
+      -1.90655386,
+      3.13002515
+    ],
+    "dynamic": "p",
+    "iteration": "6"
+  },
+  {
+    "name": "G2_p_7.wav",
+    "chord": "G2",
+    "values": [
+      -2.27241516,
+      3.00566316
+    ],
+    "dynamic": "p",
+    "iteration": "7"
+  },
+  {
+    "name": "G2_p_8.wav",
+    "chord": "G2",
+    "values": [
+      -1.91365767,
+      2.94605255
+    ],
+    "dynamic": "p",
+    "iteration": "8"
+  },
+  {
+    "name": "G2_p_9.wav",
+    "chord": "G2",
+    "values": [
+      -1.87705922,
+      3.03286886
+    ],
+    "dynamic": "p",
+    "iteration": "9"
+  },
+  {
+    "name": "Am2_f_0.wav",
+    "chord": "Am2",
+    "values": [
+      26.85859489,
+      -9.16711521
+    ],
+    "dynamic": "f",
+    "iteration": "0"
+  },
+  {
+    "name": "Am2_f_1.wav",
+    "chord": "Am2",
+    "values": [
+      24.6764679,
+      -8.85780716
+    ],
+    "dynamic": "f",
+    "iteration": "1"
+  },
+  {
+    "name": "Am2_f_2.wav",
+    "chord": "Am2",
+    "values": [
+      26.66677094,
+      -9.95314693
+    ],
+    "dynamic": "f",
+    "iteration": "2"
+  },
+  {
+    "name": "Am2_f_3.wav",
+    "chord": "Am2",
+    "values": [
+      17.65106392,
+      -5.45721817
+    ],
+    "dynamic": "f",
+    "iteration": "3"
+  },
+  {
+    "name": "Am2_f_4.wav",
+    "chord": "Am2",
+    "values": [
+      27.27941322,
+      -10.02192879
+    ],
+    "dynamic": "f",
+    "iteration": "4"
+  },
+  {
+    "name": "Am2_f_5.wav",
+    "chord": "Am2",
+    "values": [
+      27.11605263,
+      -10.03246021
+    ],
+    "dynamic": "f",
+    "iteration": "5"
+  },
+  {
+    "name": "Am2_f_6.wav",
+    "chord": "Am2",
+    "values": [
+      29.66461945,
+      -10.60831642
+    ],
+    "dynamic": "f",
+    "iteration": "6"
+  },
+  {
+    "name": "Am2_f_7.wav",
+    "chord": "Am2",
+    "values": [
+      22.01144409,
+      -8.29990482
+    ],
+    "dynamic": "f",
+    "iteration": "7"
+  },
+  {
+    "name": "Am2_f_8.wav",
+    "chord": "Am2",
+    "values": [
+      20.30884361,
+      -7.26540327
+    ],
+    "dynamic": "f",
+    "iteration": "8"
+  },
+  {
+    "name": "Am2_f_9.wav",
+    "chord": "Am2",
+    "values": [
+      22.25436974,
+      -8.07588482
+    ],
+    "dynamic": "f",
+    "iteration": "9"
+  },
+  {
+    "name": "Am2_m_0.wav",
+    "chord": "Am2",
+    "values": [
+      4.26994848,
+      5.25138998
+    ],
+    "dynamic": "m",
+    "iteration": "0"
+  },
+  {
+    "name": "Am2_m_1.wav",
+    "chord": "Am2",
+    "values": [
+      6.8264327,
+      7.90058804
+    ],
+    "dynamic": "m",
+    "iteration": "1"
+  },
+  {
+    "name": "Am2_m_2.wav",
+    "chord": "Am2",
+    "values": [
+      5.63509846,
+      6.03619576
+    ],
+    "dynamic": "m",
+    "iteration": "2"
+  },
+  {
+    "name": "Am2_m_3.wav",
+    "chord": "Am2",
+    "values": [
+      6.27188826,
+      5.6559763
+    ],
+    "dynamic": "m",
+    "iteration": "3"
+  },
+  {
+    "name": "Am2_m_4.wav",
+    "chord": "Am2",
+    "values": [
+      5.79970598,
+      6.97376871
+    ],
+    "dynamic": "m",
+    "iteration": "4"
+  },
+  {
+    "name": "Am2_m_5.wav",
+    "chord": "Am2",
+    "values": [
+      5.75263929,
+      6.19319248
+    ],
+    "dynamic": "m",
+    "iteration": "5"
+  },
+  {
+    "name": "Am2_m_6.wav",
+    "chord": "Am2",
+    "values": [
+      7.1562705,
+      6.32896566
+    ],
+    "dynamic": "m",
+    "iteration": "6"
+  },
+  {
+    "name": "Am2_m_7.wav",
+    "chord": "Am2",
+    "values": [
+      6.17359304,
+      6.81441879
+    ],
+    "dynamic": "m",
+    "iteration": "7"
+  },
+  {
+    "name": "Am2_m_8.wav",
+    "chord": "Am2",
+    "values": [
+      5.90767384,
+      5.91936207
+    ],
+    "dynamic": "m",
+    "iteration": "8"
+  },
+  {
+    "name": "Am2_m_9.wav",
+    "chord": "Am2",
+    "values": [
+      6.37273502,
+      7.24154234
+    ],
+    "dynamic": "m",
+    "iteration": "9"
+  },
+  {
+    "name": "Am2_p_0.wav",
+    "chord": "Am2",
+    "values": [
+      -3.39735818,
+      2.03113818
+    ],
+    "dynamic": "p",
+    "iteration": "0"
+  },
+  {
+    "name": "Am2_p_1.wav",
+    "chord": "Am2",
+    "values": [
+      -3.34517312,
+      2.16119194
+    ],
+    "dynamic": "p",
+    "iteration": "1"
+  },
+  {
+    "name": "Am2_p_2.wav",
+    "chord": "Am2",
+    "values": [
+      -3.11641598,
+      2.52208114
+    ],
+    "dynamic": "p",
+    "iteration": "2"
+  },
+  {
+    "name": "Am2_p_3.wav",
+    "chord": "Am2",
+    "values": [
+      -3.62263632,
+      2.31921554
+    ],
+    "dynamic": "p",
+    "iteration": "3"
+  },
+  {
+    "name": "Am2_p_4.wav",
+    "chord": "Am2",
+    "values": [
+      -3.45539761,
+      2.19760466
+    ],
+    "dynamic": "p",
+    "iteration": "4"
+  },
+  {
+    "name": "Am2_p_5.wav",
+    "chord": "Am2",
+    "values": [
+      -3.26102233,
+      2.09304738
+    ],
+    "dynamic": "p",
+    "iteration": "5"
+  },
+  {
+    "name": "Am2_p_6.wav",
+    "chord": "Am2",
+    "values": [
+      -3.13149261,
+      2.05351567
+    ],
+    "dynamic": "p",
+    "iteration": "6"
+  },
+  {
+    "name": "Am2_p_7.wav",
+    "chord": "Am2",
+    "values": [
+      -3.47440386,
+      2.2965312
+    ],
+    "dynamic": "p",
+    "iteration": "7"
+  },
+  {
+    "name": "Am2_p_8.wav",
+    "chord": "Am2",
+    "values": [
+      -3.08684778,
+      2.35152435
+    ],
+    "dynamic": "p",
+    "iteration": "8"
+  },
+  {
+    "name": "Am2_p_9.wav",
+    "chord": "Am2",
+    "values": [
+      -3.08660364,
+      2.16432595
+    ],
+    "dynamic": "p",
+    "iteration": "9"
+  },
+  {
+    "name": "Bdim2_f_0.wav",
+    "chord": "Bdim2",
+    "values": [
+      14.71537399,
+      -31.45355606
+    ],
+    "dynamic": "f",
+    "iteration": "0"
+  },
+  {
+    "name": "Bdim2_f_1.wav",
+    "chord": "Bdim2",
+    "values": [
+      16.74860382,
+      -34.20262527
+    ],
+    "dynamic": "f",
+    "iteration": "1"
+  },
+  {
+    "name": "Bdim2_f_2.wav",
+    "chord": "Bdim2",
+    "values": [
+      15.70561981,
+      -32.42018127
+    ],
+    "dynamic": "f",
+    "iteration": "2"
+  },
+  {
+    "name": "Bdim2_f_3.wav",
+    "chord": "Bdim2",
+    "values": [
+      10.73625565,
+      -26.11668396
+    ],
+    "dynamic": "f",
+    "iteration": "3"
+  },
+  {
+    "name": "Bdim2_f_4.wav",
+    "chord": "Bdim2",
+    "values": [
+      11.24546051,
+      -26.96949768
+    ],
+    "dynamic": "f",
+    "iteration": "4"
+  },
+  {
+    "name": "Bdim2_f_5.wav",
+    "chord": "Bdim2",
+    "values": [
+      16.14089012,
+      -33.96494293
+    ],
+    "dynamic": "f",
+    "iteration": "5"
+  },
+  {
+    "name": "Bdim2_f_6.wav",
+    "chord": "Bdim2",
+    "values": [
+      16.32790947,
+      -35.43947983
+    ],
+    "dynamic": "f",
+    "iteration": "6"
+  },
+  {
+    "name": "Bdim2_f_7.wav",
+    "chord": "Bdim2",
+    "values": [
+      13.84550285,
+      -31.66415596
+    ],
+    "dynamic": "f",
+    "iteration": "7"
+  },
+  {
+    "name": "Bdim2_f_8.wav",
+    "chord": "Bdim2",
+    "values": [
+      13.37803268,
+      -31.00027657
+    ],
+    "dynamic": "f",
+    "iteration": "8"
+  },
+  {
+    "name": "Bdim2_f_9.wav",
+    "chord": "Bdim2",
+    "values": [
+      11.94948101,
+      -29.10780716
+    ],
+    "dynamic": "f",
+    "iteration": "9"
+  },
+  {
+    "name": "Bdim2_m_0.wav",
+    "chord": "Bdim2",
+    "values": [
+      9.51031685,
+      8.13943481
+    ],
+    "dynamic": "m",
+    "iteration": "0"
+  },
+  {
+    "name": "Bdim2_m_1.wav",
+    "chord": "Bdim2",
+    "values": [
+      8.86266518,
+      7.02950811
+    ],
+    "dynamic": "m",
+    "iteration": "1"
+  },
+  {
+    "name": "Bdim2_m_2.wav",
+    "chord": "Bdim2",
+    "values": [
+      8.55632496,
+      7.29707623
+    ],
+    "dynamic": "m",
+    "iteration": "2"
+  },
+  {
+    "name": "Bdim2_m_3.wav",
+    "chord": "Bdim2",
+    "values": [
+      10.02473927,
+      7.8869729
+    ],
+    "dynamic": "m",
+    "iteration": "3"
+  },
+  {
+    "name": "Bdim2_m_4.wav",
+    "chord": "Bdim2",
+    "values": [
+      6.12978601,
+      7.28138399
+    ],
+    "dynamic": "m",
+    "iteration": "4"
+  },
+  {
+    "name": "Bdim2_m_5.wav",
+    "chord": "Bdim2",
+    "values": [
+      10.19655609,
+      7.50078773
+    ],
+    "dynamic": "m",
+    "iteration": "5"
+  },
+  {
+    "name": "Bdim2_m_6.wav",
+    "chord": "Bdim2",
+    "values": [
+      9.73333454,
+      7.61968184
+    ],
+    "dynamic": "m",
+    "iteration": "6"
+  },
+  {
+    "name": "Bdim2_m_7.wav",
+    "chord": "Bdim2",
+    "values": [
+      9.94840145,
+      8.18812466
+    ],
+    "dynamic": "m",
+    "iteration": "7"
+  },
+  {
+    "name": "Bdim2_m_8.wav",
+    "chord": "Bdim2",
+    "values": [
+      9.0140934,
+      7.39870882
+    ],
+    "dynamic": "m",
+    "iteration": "8"
+  },
+  {
+    "name": "Bdim2_m_9.wav",
+    "chord": "Bdim2",
+    "values": [
+      8.37926102,
+      7.16274738
+    ],
+    "dynamic": "m",
+    "iteration": "9"
+  },
+  {
+    "name": "Bdim2_p_0.wav",
+    "chord": "Bdim2",
+    "values": [
+      -3.11215186,
+      3.37423611
+    ],
+    "dynamic": "p",
+    "iteration": "0"
+  },
+  {
+    "name": "Bdim2_p_1.wav",
+    "chord": "Bdim2",
+    "values": [
+      -2.6059432,
+      3.76329064
+    ],
+    "dynamic": "p",
+    "iteration": "1"
+  },
+  {
+    "name": "Bdim2_p_2.wav",
+    "chord": "Bdim2",
+    "values": [
+      -2.93777037,
+      3.98156738
+    ],
+    "dynamic": "p",
+    "iteration": "2"
+  },
+  {
+    "name": "Bdim2_p_3.wav",
+    "chord": "Bdim2",
+    "values": [
+      -2.64744186,
+      3.50776887
+    ],
+    "dynamic": "p",
+    "iteration": "3"
+  },
+  {
+    "name": "Bdim2_p_4.wav",
+    "chord": "Bdim2",
+    "values": [
+      -3.02615213,
+      3.69645023
+    ],
+    "dynamic": "p",
+    "iteration": "4"
+  },
+  {
+    "name": "Bdim2_p_5.wav",
+    "chord": "Bdim2",
+    "values": [
+      -2.58736372,
+      3.78624678
+    ],
+    "dynamic": "p",
+    "iteration": "5"
+  },
+  {
+    "name": "Bdim2_p_6.wav",
+    "chord": "Bdim2",
+    "values": [
+      -2.84232664,
+      3.88290572
+    ],
+    "dynamic": "p",
+    "iteration": "6"
+  },
+  {
+    "name": "Bdim2_p_7.wav",
+    "chord": "Bdim2",
+    "values": [
+      -2.73935008,
+      3.53164077
+    ],
+    "dynamic": "p",
+    "iteration": "7"
+  },
+  {
+    "name": "Bdim2_p_8.wav",
+    "chord": "Bdim2",
+    "values": [
+      -2.62364769,
+      3.80226564
+    ],
+    "dynamic": "p",
+    "iteration": "8"
+  },
+  {
+    "name": "Bdim2_p_9.wav",
+    "chord": "Bdim2",
+    "values": [
+      -2.77640557,
+      3.31553054
+    ],
+    "dynamic": "p",
+    "iteration": "9"
+  },
+  {
+    "name": "C3_f_0.wav",
+    "chord": "C3",
+    "values": [
+      31.31002045,
+      -8.41953564
+    ],
+    "dynamic": "f",
+    "iteration": "0"
+  },
+  {
+    "name": "C3_f_1.wav",
+    "chord": "C3",
+    "values": [
+      38.63642502,
+      -10.66124439
+    ],
+    "dynamic": "f",
+    "iteration": "1"
+  },
+  {
+    "name": "C3_f_2.wav",
+    "chord": "C3",
+    "values": [
+      30.49735069,
+      -8.26306057
+    ],
+    "dynamic": "f",
+    "iteration": "2"
+  },
+  {
+    "name": "C3_f_3.wav",
+    "chord": "C3",
+    "values": [
+      35.57976913,
+      -10.12098026
+    ],
+    "dynamic": "f",
+    "iteration": "3"
+  },
+  {
+    "name": "C3_f_4.wav",
+    "chord": "C3",
+    "values": [
+      32.44401932,
+      -8.88372993
+    ],
+    "dynamic": "f",
+    "iteration": "4"
+  },
+  {
+    "name": "C3_f_5.wav",
+    "chord": "C3",
+    "values": [
+      31.02900314,
+      -8.57572556
+    ],
+    "dynamic": "f",
+    "iteration": "5"
+  },
+  {
+    "name": "C3_f_6.wav",
+    "chord": "C3",
+    "values": [
+      36.29318237,
+      -10.15811348
+    ],
+    "dynamic": "f",
+    "iteration": "6"
+  },
+  {
+    "name": "C3_f_7.wav",
+    "chord": "C3",
+    "values": [
+      34.41547012,
+      -9.77957821
+    ],
+    "dynamic": "f",
+    "iteration": "7"
+  },
+  {
+    "name": "C3_f_8.wav",
+    "chord": "C3",
+    "values": [
+      35.92020035,
+      -9.94205761
+    ],
+    "dynamic": "f",
+    "iteration": "8"
+  },
+  {
+    "name": "C3_f_9.wav",
+    "chord": "C3",
+    "values": [
+      39.55647659,
+      -10.45345879
+    ],
+    "dynamic": "f",
+    "iteration": "9"
+  },
+  {
+    "name": "C3_m_0.wav",
+    "chord": "C3",
+    "values": [
+      4.33825541,
+      6.83106756
+    ],
+    "dynamic": "m",
+    "iteration": "0"
+  },
+  {
+    "name": "C3_m_1.wav",
+    "chord": "C3",
+    "values": [
+      6.19121838,
+      8.35517693
+    ],
+    "dynamic": "m",
+    "iteration": "1"
+  },
+  {
+    "name": "C3_m_2.wav",
+    "chord": "C3",
+    "values": [
+      5.56748247,
+      8.1556263
+    ],
+    "dynamic": "m",
+    "iteration": "2"
+  },
+  {
+    "name": "C3_m_3.wav",
+    "chord": "C3",
+    "values": [
+      8.00597,
+      8.90825081
+    ],
+    "dynamic": "m",
+    "iteration": "3"
+  },
+  {
+    "name": "C3_m_4.wav",
+    "chord": "C3",
+    "values": [
+      6.55769682,
+      8.92693615
+    ],
+    "dynamic": "m",
+    "iteration": "4"
+  },
+  {
+    "name": "C3_m_5.wav",
+    "chord": "C3",
+    "values": [
+      6.46569681,
+      8.9493618
+    ],
+    "dynamic": "m",
+    "iteration": "5"
+  },
+  {
+    "name": "C3_m_6.wav",
+    "chord": "C3",
+    "values": [
+      5.42148781,
+      8.13328648
+    ],
+    "dynamic": "m",
+    "iteration": "6"
+  },
+  {
+    "name": "C3_m_7.wav",
+    "chord": "C3",
+    "values": [
+      5.62941027,
+      8.28726387
+    ],
+    "dynamic": "m",
+    "iteration": "7"
+  },
+  {
+    "name": "C3_m_8.wav",
+    "chord": "C3",
+    "values": [
+      5.28930569,
+      8.11725426
+    ],
+    "dynamic": "m",
+    "iteration": "8"
+  },
+  {
+    "name": "C3_m_9.wav",
+    "chord": "C3",
+    "values": [
+      5.48165417,
+      7.80554676
+    ],
+    "dynamic": "m",
+    "iteration": "9"
+  },
+  {
+    "name": "C3_p_0.wav",
+    "chord": "C3",
+    "values": [
+      -2.724437,
+      2.39007854
+    ],
+    "dynamic": "p",
+    "iteration": "0"
+  },
+  {
+    "name": "C3_p_1.wav",
+    "chord": "C3",
+    "values": [
+      -2.65334511,
+      2.50224972
+    ],
+    "dynamic": "p",
+    "iteration": "1"
+  },
+  {
+    "name": "C3_p_2.wav",
+    "chord": "C3",
+    "values": [
+      -2.76301575,
+      2.67384171
+    ],
+    "dynamic": "p",
+    "iteration": "2"
+  },
+  {
+    "name": "C3_p_3.wav",
+    "chord": "C3",
+    "values": [
+      -2.96249986,
+      2.61547804
+    ],
+    "dynamic": "p",
+    "iteration": "3"
+  },
+  {
+    "name": "C3_p_4.wav",
+    "chord": "C3",
+    "values": [
+      -2.42623353,
+      2.28634286
+    ],
+    "dynamic": "p",
+    "iteration": "4"
+  },
+  {
+    "name": "C3_p_5.wav",
+    "chord": "C3",
+    "values": [
+      -2.56687927,
+      2.50485826
+    ],
+    "dynamic": "p",
+    "iteration": "5"
+  },
+  {
+    "name": "C3_p_6.wav",
+    "chord": "C3",
+    "values": [
+      -2.59308648,
+      2.35938811
+    ],
+    "dynamic": "p",
+    "iteration": "6"
+  },
+  {
+    "name": "C3_p_7.wav",
+    "chord": "C3",
+    "values": [
+      -2.50286031,
+      2.46761823
+    ],
+    "dynamic": "p",
+    "iteration": "7"
+  },
+  {
+    "name": "C3_p_8.wav",
+    "chord": "C3",
+    "values": [
+      -2.62488484,
+      2.51182485
+    ],
+    "dynamic": "p",
+    "iteration": "8"
+  },
+  {
+    "name": "C3_p_9.wav",
+    "chord": "C3",
+    "values": [
+      -2.70077586,
+      2.57303333
+    ],
+    "dynamic": "p",
+    "iteration": "9"
+  },
+  {
+    "name": "Dm3_f_0.wav",
+    "chord": "Dm3",
+    "values": [
+      21.85258484,
+      -30.11881065
+    ],
+    "dynamic": "f",
+    "iteration": "0"
+  },
+  {
+    "name": "Dm3_f_1.wav",
+    "chord": "Dm3",
+    "values": [
+      24.52859116,
+      -33.38770294
+    ],
+    "dynamic": "f",
+    "iteration": "1"
+  },
+  {
+    "name": "Dm3_f_2.wav",
+    "chord": "Dm3",
+    "values": [
+      20.15398216,
+      -28.50550079
+    ],
+    "dynamic": "f",
+    "iteration": "2"
+  },
+  {
+    "name": "Dm3_f_3.wav",
+    "chord": "Dm3",
+    "values": [
+      22.11090469,
+      -30.95394516
+    ],
+    "dynamic": "f",
+    "iteration": "3"
+  },
+  {
+    "name": "Dm3_f_4.wav",
+    "chord": "Dm3",
+    "values": [
+      23.70173264,
+      -33.10084915
+    ],
+    "dynamic": "f",
+    "iteration": "4"
+  },
+  {
+    "name": "Dm3_f_5.wav",
+    "chord": "Dm3",
+    "values": [
+      15.49520874,
+      -23.89499664
+    ],
+    "dynamic": "f",
+    "iteration": "5"
+  },
+  {
+    "name": "Dm3_f_6.wav",
+    "chord": "Dm3",
+    "values": [
+      19.34415245,
+      -29.01645851
+    ],
+    "dynamic": "f",
+    "iteration": "6"
+  },
+  {
+    "name": "Dm3_f_7.wav",
+    "chord": "Dm3",
+    "values": [
+      20.26592255,
+      -30.33447647
+    ],
+    "dynamic": "f",
+    "iteration": "7"
+  },
+  {
+    "name": "Dm3_f_8.wav",
+    "chord": "Dm3",
+    "values": [
+      22.93545341,
+      -32.53622055
+    ],
+    "dynamic": "f",
+    "iteration": "8"
+  },
+  {
+    "name": "Dm3_f_9.wav",
+    "chord": "Dm3",
+    "values": [
+      16.00868797,
+      -24.13549614
+    ],
+    "dynamic": "f",
+    "iteration": "9"
+  },
+  {
+    "name": "Dm3_m_0.wav",
+    "chord": "Dm3",
+    "values": [
+      5.37139893,
+      4.40636539
+    ],
+    "dynamic": "m",
+    "iteration": "0"
+  },
+  {
+    "name": "Dm3_m_1.wav",
+    "chord": "Dm3",
+    "values": [
+      5.00494289,
+      5.36659098
+    ],
+    "dynamic": "m",
+    "iteration": "1"
+  },
+  {
+    "name": "Dm3_m_2.wav",
+    "chord": "Dm3",
+    "values": [
+      4.86408329,
+      3.16143203
+    ],
+    "dynamic": "m",
+    "iteration": "2"
+  },
+  {
+    "name": "Dm3_m_3.wav",
+    "chord": "Dm3",
+    "values": [
+      6.98501587,
+      6.21777153
+    ],
+    "dynamic": "m",
+    "iteration": "3"
+  },
+  {
+    "name": "Dm3_m_4.wav",
+    "chord": "Dm3",
+    "values": [
+      6.3986392,
+      5.99038219
+    ],
+    "dynamic": "m",
+    "iteration": "4"
+  },
+  {
+    "name": "Dm3_m_5.wav",
+    "chord": "Dm3",
+    "values": [
+      4.6152463,
+      6.0376997
+    ],
+    "dynamic": "m",
+    "iteration": "5"
+  },
+  {
+    "name": "Dm3_m_6.wav",
+    "chord": "Dm3",
+    "values": [
+      6.82046127,
+      5.48314381
+    ],
+    "dynamic": "m",
+    "iteration": "6"
+  },
+  {
+    "name": "Dm3_m_7.wav",
+    "chord": "Dm3",
+    "values": [
+      5.7970686,
+      6.11344576
+    ],
+    "dynamic": "m",
+    "iteration": "7"
+  },
+  {
+    "name": "Dm3_m_8.wav",
+    "chord": "Dm3",
+    "values": [
+      6.12148333,
+      5.91258335
+    ],
+    "dynamic": "m",
+    "iteration": "8"
+  },
+  {
+    "name": "Dm3_m_9.wav",
+    "chord": "Dm3",
+    "values": [
+      5.10646772,
+      6.22737694
+    ],
+    "dynamic": "m",
+    "iteration": "9"
+  },
+  {
+    "name": "Dm3_p_0.wav",
+    "chord": "Dm3",
+    "values": [
+      -2.65028381,
+      3.89791131
+    ],
+    "dynamic": "p",
+    "iteration": "0"
+  },
+  {
+    "name": "Dm3_p_1.wav",
+    "chord": "Dm3",
+    "values": [
+      -2.36964989,
+      4.33228111
+    ],
+    "dynamic": "p",
+    "iteration": "1"
+  },
+  {
+    "name": "Dm3_p_2.wav",
+    "chord": "Dm3",
+    "values": [
+      -2.23398852,
+      4.93139172
+    ],
+    "dynamic": "p",
+    "iteration": "2"
+  },
+  {
+    "name": "Dm3_p_3.wav",
+    "chord": "Dm3",
+    "values": [
+      -2.52771187,
+      4.03662443
+    ],
+    "dynamic": "p",
+    "iteration": "3"
+  },
+  {
+    "name": "Dm3_p_4.wav",
+    "chord": "Dm3",
+    "values": [
+      -2.53277826,
+      4.42367649
+    ],
+    "dynamic": "p",
+    "iteration": "4"
+  },
+  {
+    "name": "Dm3_p_5.wav",
+    "chord": "Dm3",
+    "values": [
+      -1.81554294,
+      4.71492052
+    ],
+    "dynamic": "p",
+    "iteration": "5"
+  },
+  {
+    "name": "Dm3_p_6.wav",
+    "chord": "Dm3",
+    "values": [
+      -2.51246524,
+      4.16790199
+    ],
+    "dynamic": "p",
+    "iteration": "6"
+  },
+  {
+    "name": "Dm3_p_7.wav",
+    "chord": "Dm3",
+    "values": [
+      -2.28650784,
+      4.26999378
+    ],
+    "dynamic": "p",
+    "iteration": "7"
+  },
+  {
+    "name": "Dm3_p_8.wav",
+    "chord": "Dm3",
+    "values": [
+      -2.46109819,
+      4.32087183
+    ],
+    "dynamic": "p",
+    "iteration": "8"
+  },
+  {
+    "name": "Dm3_p_9.wav",
+    "chord": "Dm3",
+    "values": [
+      -2.33581352,
+      4.1310854
+    ],
+    "dynamic": "p",
+    "iteration": "9"
+  },
+  {
+    "name": "Em3_f_0.wav",
+    "chord": "Em3",
+    "values": [
+      31.8402729,
+      -5.18933058
+    ],
+    "dynamic": "f",
+    "iteration": "0"
+  },
+  {
+    "name": "Em3_f_1.wav",
+    "chord": "Em3",
+    "values": [
+      20.72519875,
+      -3.4149487
+    ],
+    "dynamic": "f",
+    "iteration": "1"
+  },
+  {
+    "name": "Em3_f_2.wav",
+    "chord": "Em3",
+    "values": [
+      29.84878731,
+      -4.69744635
+    ],
+    "dynamic": "f",
+    "iteration": "2"
+  },
+  {
+    "name": "Em3_f_3.wav",
+    "chord": "Em3",
+    "values": [
+      23.94442177,
+      -4.17840099
+    ],
+    "dynamic": "f",
+    "iteration": "3"
+  },
+  {
+    "name": "Em3_f_4.wav",
+    "chord": "Em3",
+    "values": [
+      28.52215004,
+      -4.16283131
+    ],
+    "dynamic": "f",
+    "iteration": "4"
+  },
+  {
+    "name": "Em3_f_5.wav",
+    "chord": "Em3",
+    "values": [
+      27.43677902,
+      -4.21960497
+    ],
+    "dynamic": "f",
+    "iteration": "5"
+  },
+  {
+    "name": "Em3_f_6.wav",
+    "chord": "Em3",
+    "values": [
+      27.89772606,
+      -4.17375755
+    ],
+    "dynamic": "f",
+    "iteration": "6"
+  },
+  {
+    "name": "Em3_f_7.wav",
+    "chord": "Em3",
+    "values": [
+      22.72371483,
+      -3.34110785
+    ],
+    "dynamic": "f",
+    "iteration": "7"
+  },
+  {
+    "name": "Em3_f_8.wav",
+    "chord": "Em3",
+    "values": [
+      31.30469131,
+      -4.84917545
+    ],
+    "dynamic": "f",
+    "iteration": "8"
+  },
+  {
+    "name": "Em3_f_9.wav",
+    "chord": "Em3",
+    "values": [
+      28.04523277,
+      -4.59655523
+    ],
+    "dynamic": "f",
+    "iteration": "9"
+  },
+  {
+    "name": "Em3_m_0.wav",
+    "chord": "Em3",
+    "values": [
+      5.05822563,
+      8.68302631
+    ],
+    "dynamic": "m",
+    "iteration": "0"
+  },
+  {
+    "name": "Em3_m_1.wav",
+    "chord": "Em3",
+    "values": [
+      5.547575,
+      8.64338493
+    ],
+    "dynamic": "m",
+    "iteration": "1"
+  },
+  {
+    "name": "Em3_m_2.wav",
+    "chord": "Em3",
+    "values": [
+      4.6179781,
+      8.34949493
+    ],
+    "dynamic": "m",
+    "iteration": "2"
+  },
+  {
+    "name": "Em3_m_3.wav",
+    "chord": "Em3",
+    "values": [
+      3.42167664,
+      6.79705334
+    ],
+    "dynamic": "m",
+    "iteration": "3"
+  },
+  {
+    "name": "Em3_m_4.wav",
+    "chord": "Em3",
+    "values": [
+      4.62132168,
+      8.17946625
+    ],
+    "dynamic": "m",
+    "iteration": "4"
+  },
+  {
+    "name": "Em3_m_5.wav",
+    "chord": "Em3",
+    "values": [
+      4.2927742,
+      7.79079103
+    ],
+    "dynamic": "m",
+    "iteration": "5"
+  },
+  {
+    "name": "Em3_m_6.wav",
+    "chord": "Em3",
+    "values": [
+      4.41586256,
+      8.16448212
+    ],
+    "dynamic": "m",
+    "iteration": "6"
+  },
+  {
+    "name": "Em3_m_7.wav",
+    "chord": "Em3",
+    "values": [
+      3.84187484,
+      7.63956165
+    ],
+    "dynamic": "m",
+    "iteration": "7"
+  },
+  {
+    "name": "Em3_m_8.wav",
+    "chord": "Em3",
+    "values": [
+      3.86205792,
+      7.63053703
+    ],
+    "dynamic": "m",
+    "iteration": "8"
+  },
+  {
+    "name": "Em3_m_9.wav",
+    "chord": "Em3",
+    "values": [
+      5.6702075,
+      9.59838486
+    ],
+    "dynamic": "m",
+    "iteration": "9"
+  },
+  {
+    "name": "Em3_p_0.wav",
+    "chord": "Em3",
+    "values": [
+      -2.57176137,
+      3.50082803
+    ],
+    "dynamic": "p",
+    "iteration": "0"
+  },
+  {
+    "name": "Em3_p_1.wav",
+    "chord": "Em3",
+    "values": [
+      -2.55130148,
+      3.37060213
+    ],
+    "dynamic": "p",
+    "iteration": "1"
+  },
+  {
+    "name": "Em3_p_2.wav",
+    "chord": "Em3",
+    "values": [
+      -2.72038364,
+      3.38162446
+    ],
+    "dynamic": "p",
+    "iteration": "2"
+  },
+  {
+    "name": "Em3_p_3.wav",
+    "chord": "Em3",
+    "values": [
+      -2.70929408,
+      3.24351406
+    ],
+    "dynamic": "p",
+    "iteration": "3"
+  },
+  {
+    "name": "Em3_p_4.wav",
+    "chord": "Em3",
+    "values": [
+      -2.49383783,
+      3.28279734
+    ],
+    "dynamic": "p",
+    "iteration": "4"
+  },
+  {
+    "name": "Em3_p_5.wav",
+    "chord": "Em3",
+    "values": [
+      -3.27608705,
+      3.18883371
+    ],
+    "dynamic": "p",
+    "iteration": "5"
+  },
+  {
+    "name": "Em3_p_6.wav",
+    "chord": "Em3",
+    "values": [
+      -2.88355184,
+      3.23255205
+    ],
+    "dynamic": "p",
+    "iteration": "6"
+  },
+  {
+    "name": "Em3_p_7.wav",
+    "chord": "Em3",
+    "values": [
+      -2.98444462,
+      3.18071461
+    ],
+    "dynamic": "p",
+    "iteration": "7"
+  },
+  {
+    "name": "Em3_p_8.wav",
+    "chord": "Em3",
+    "values": [
+      -2.61308813,
+      3.39102721
+    ],
+    "dynamic": "p",
+    "iteration": "8"
+  },
+  {
+    "name": "Em3_p_9.wav",
+    "chord": "Em3",
+    "values": [
+      -2.55589581,
+      3.45953703
+    ],
+    "dynamic": "p",
+    "iteration": "9"
+  },
+  {
+    "name": "F3_f_0.wav",
+    "chord": "F3",
+    "values": [
+      19.54491425,
+      -21.42521095
+    ],
+    "dynamic": "f",
+    "iteration": "0"
+  },
+  {
+    "name": "F3_f_1.wav",
+    "chord": "F3",
+    "values": [
+      15.26773453,
+      -16.28157234
+    ],
+    "dynamic": "f",
+    "iteration": "1"
+  },
+  {
+    "name": "F3_f_2.wav",
+    "chord": "F3",
+    "values": [
+      16.95342064,
+      -18.37372398
+    ],
+    "dynamic": "f",
+    "iteration": "2"
+  },
+  {
+    "name": "F3_f_3.wav",
+    "chord": "F3",
+    "values": [
+      18.91797447,
+      -21.55039215
+    ],
+    "dynamic": "f",
+    "iteration": "3"
+  },
+  {
+    "name": "F3_f_4.wav",
+    "chord": "F3",
+    "values": [
+      14.61074352,
+      -15.40773296
+    ],
+    "dynamic": "f",
+    "iteration": "4"
+  },
+  {
+    "name": "F3_f_5.wav",
+    "chord": "F3",
+    "values": [
+      18.42531204,
+      -19.93555641
+    ],
+    "dynamic": "f",
+    "iteration": "5"
+  },
+  {
+    "name": "F3_f_6.wav",
+    "chord": "F3",
+    "values": [
+      18.65033913,
+      -20.34361839
+    ],
+    "dynamic": "f",
+    "iteration": "6"
+  },
+  {
+    "name": "F3_f_7.wav",
+    "chord": "F3",
+    "values": [
+      17.66981888,
+      -19.60551262
+    ],
+    "dynamic": "f",
+    "iteration": "7"
+  },
+  {
+    "name": "F3_f_8.wav",
+    "chord": "F3",
+    "values": [
+      18.33594131,
+      -20.83358574
+    ],
+    "dynamic": "f",
+    "iteration": "8"
+  },
+  {
+    "name": "F3_f_9.wav",
+    "chord": "F3",
+    "values": [
+      19.06118011,
+      -20.83172226
+    ],
+    "dynamic": "f",
+    "iteration": "9"
+  },
+  {
+    "name": "F3_m_0.wav",
+    "chord": "F3",
+    "values": [
+      3.95645261,
+      4.89254761
+    ],
+    "dynamic": "m",
+    "iteration": "0"
+  },
+  {
+    "name": "F3_m_1.wav",
+    "chord": "F3",
+    "values": [
+      4.2599225,
+      4.15167284
+    ],
+    "dynamic": "m",
+    "iteration": "1"
+  },
+  {
+    "name": "F3_m_2.wav",
+    "chord": "F3",
+    "values": [
+      3.30619621,
+      3.41486597
+    ],
+    "dynamic": "m",
+    "iteration": "2"
+  },
+  {
+    "name": "F3_m_3.wav",
+    "chord": "F3",
+    "values": [
+      3.05823803,
+      4.74818325
+    ],
+    "dynamic": "m",
+    "iteration": "3"
+  },
+  {
+    "name": "F3_m_4.wav",
+    "chord": "F3",
+    "values": [
+      4.67432737,
+      5.41380644
+    ],
+    "dynamic": "m",
+    "iteration": "4"
+  },
+  {
+    "name": "F3_m_5.wav",
+    "chord": "F3",
+    "values": [
+      4.81621504,
+      6.02709866
+    ],
+    "dynamic": "m",
+    "iteration": "5"
+  },
+  {
+    "name": "F3_m_6.wav",
+    "chord": "F3",
+    "values": [
+      3.30813813,
+      4.76668596
+    ],
+    "dynamic": "m",
+    "iteration": "6"
+  },
+  {
+    "name": "F3_m_7.wav",
+    "chord": "F3",
+    "values": [
+      4.02015209,
+      4.70363712
+    ],
+    "dynamic": "m",
+    "iteration": "7"
+  },
+  {
+    "name": "F3_m_8.wav",
+    "chord": "F3",
+    "values": [
+      4.8254509,
+      5.63050461
+    ],
+    "dynamic": "m",
+    "iteration": "8"
+  },
+  {
+    "name": "F3_m_9.wav",
+    "chord": "F3",
+    "values": [
+      3.75736046,
+      5.34159946
+    ],
+    "dynamic": "m",
+    "iteration": "9"
+  },
+  {
+    "name": "F3_p_0.wav",
+    "chord": "F3",
+    "values": [
+      -1.61725247,
+      3.77605319
+    ],
+    "dynamic": "p",
+    "iteration": "0"
+  },
+  {
+    "name": "F3_p_1.wav",
+    "chord": "F3",
+    "values": [
+      -1.33909583,
+      3.64029717
+    ],
+    "dynamic": "p",
+    "iteration": "1"
+  },
+  {
+    "name": "F3_p_2.wav",
+    "chord": "F3",
+    "values": [
+      -1.38103187,
+      3.83382869
+    ],
+    "dynamic": "p",
+    "iteration": "2"
+  },
+  {
+    "name": "F3_p_3.wav",
+    "chord": "F3",
+    "values": [
+      -1.24741232,
+      3.94332361
+    ],
+    "dynamic": "p",
+    "iteration": "3"
+  },
+  {
+    "name": "F3_p_4.wav",
+    "chord": "F3",
+    "values": [
+      -1.31854916,
+      3.7982657
+    ],
+    "dynamic": "p",
+    "iteration": "4"
+  },
+  {
+    "name": "F3_p_5.wav",
+    "chord": "F3",
+    "values": [
+      -1.15998602,
+      3.65168762
+    ],
+    "dynamic": "p",
+    "iteration": "5"
+  },
+  {
+    "name": "F3_p_6.wav",
+    "chord": "F3",
+    "values": [
+      -1.47024953,
+      3.73308825
+    ],
+    "dynamic": "p",
+    "iteration": "6"
+  },
+  {
+    "name": "F3_p_7.wav",
+    "chord": "F3",
+    "values": [
+      -2.03771949,
+      3.97717094
+    ],
+    "dynamic": "p",
+    "iteration": "7"
+  },
+  {
+    "name": "F3_p_8.wav",
+    "chord": "F3",
+    "values": [
+      -1.37660992,
+      3.93448329
+    ],
+    "dynamic": "p",
+    "iteration": "8"
+  },
+  {
+    "name": "F3_p_9.wav",
+    "chord": "F3",
+    "values": [
+      -1.44527245,
+      3.78103065
+    ],
+    "dynamic": "p",
+    "iteration": "9"
+  },
+  {
+    "name": "G3_f_0.wav",
+    "chord": "G3",
+    "values": [
+      21.63529778,
+      -1.47790837
+    ],
+    "dynamic": "f",
+    "iteration": "0"
+  },
+  {
+    "name": "G3_f_1.wav",
+    "chord": "G3",
+    "values": [
+      23.96194267,
+      -1.75291765
+    ],
+    "dynamic": "f",
+    "iteration": "1"
+  },
+  {
+    "name": "G3_f_2.wav",
+    "chord": "G3",
+    "values": [
+      23.98120308,
+      -1.9974637
+    ],
+    "dynamic": "f",
+    "iteration": "2"
+  },
+  {
+    "name": "G3_f_3.wav",
+    "chord": "G3",
+    "values": [
+      21.4186821,
+      -1.419716
+    ],
+    "dynamic": "f",
+    "iteration": "3"
+  },
+  {
+    "name": "G3_f_4.wav",
+    "chord": "G3",
+    "values": [
+      23.47412682,
+      -1.28365588
+    ],
+    "dynamic": "f",
+    "iteration": "4"
+  },
+  {
+    "name": "G3_f_5.wav",
+    "chord": "G3",
+    "values": [
+      25.40352631,
+      -1.88659358
+    ],
+    "dynamic": "f",
+    "iteration": "5"
+  },
+  {
+    "name": "G3_f_6.wav",
+    "chord": "G3",
+    "values": [
+      21.976717,
+      -1.09745777
+    ],
+    "dynamic": "f",
+    "iteration": "6"
+  },
+  {
+    "name": "G3_f_7.wav",
+    "chord": "G3",
+    "values": [
+      25.02572441,
+      -1.74934328
+    ],
+    "dynamic": "f",
+    "iteration": "7"
+  },
+  {
+    "name": "G3_f_8.wav",
+    "chord": "G3",
+    "values": [
+      20.98530579,
+      -1.57614124
+    ],
+    "dynamic": "f",
+    "iteration": "8"
+  },
+  {
+    "name": "G3_f_9.wav",
+    "chord": "G3",
+    "values": [
+      20.50654984,
+      -1.39929414
+    ],
+    "dynamic": "f",
+    "iteration": "9"
+  },
+  {
+    "name": "G3_m_0.wav",
+    "chord": "G3",
+    "values": [
+      2.89989066,
+      9.59310818
+    ],
+    "dynamic": "m",
+    "iteration": "0"
+  },
+  {
+    "name": "G3_m_1.wav",
+    "chord": "G3",
+    "values": [
+      3.21786332,
+      9.18226051
+    ],
+    "dynamic": "m",
+    "iteration": "1"
+  },
+  {
+    "name": "G3_m_2.wav",
+    "chord": "G3",
+    "values": [
+      3.15369582,
+      9.93190002
+    ],
+    "dynamic": "m",
+    "iteration": "2"
+  },
+  {
+    "name": "G3_m_3.wav",
+    "chord": "G3",
+    "values": [
+      3.39906096,
+      9.8975296
+    ],
+    "dynamic": "m",
+    "iteration": "3"
+  },
+  {
+    "name": "G3_m_4.wav",
+    "chord": "G3",
+    "values": [
+      -0.3029106,
+      0.61647636
+    ],
+    "dynamic": "m",
+    "iteration": "4"
+  },
+  {
+    "name": "G3_m_5.wav",
+    "chord": "G3",
+    "values": [
+      3.2336657,
+      9.44347095
+    ],
+    "dynamic": "m",
+    "iteration": "5"
+  },
+  {
+    "name": "G3_m_6.wav",
+    "chord": "G3",
+    "values": [
+      3.80869436,
+      10.29767323
+    ],
+    "dynamic": "m",
+    "iteration": "6"
+  },
+  {
+    "name": "G3_m_7.wav",
+    "chord": "G3",
+    "values": [
+      3.20644665,
+      9.60470772
+    ],
+    "dynamic": "m",
+    "iteration": "7"
+  },
+  {
+    "name": "G3_m_8.wav",
+    "chord": "G3",
+    "values": [
+      3.43794632,
+      10.29924488
+    ],
+    "dynamic": "m",
+    "iteration": "8"
+  },
+  {
+    "name": "G3_m_9.wav",
+    "chord": "G3",
+    "values": [
+      2.28140092,
+      8.22632217
+    ],
+    "dynamic": "m",
+    "iteration": "9"
+  },
+  {
+    "name": "G3_p_0.wav",
+    "chord": "G3",
+    "values": [
+      -2.18537164,
+      3.8060379
+    ],
+    "dynamic": "p",
+    "iteration": "0"
+  },
+  {
+    "name": "G3_p_1.wav",
+    "chord": "G3",
+    "values": [
+      -1.95317602,
+      3.98986912
+    ],
+    "dynamic": "p",
+    "iteration": "1"
+  },
+  {
+    "name": "G3_p_2.wav",
+    "chord": "G3",
+    "values": [
+      -1.7879343,
+      3.58290362
+    ],
+    "dynamic": "p",
+    "iteration": "2"
+  },
+  {
+    "name": "G3_p_3.wav",
+    "chord": "G3",
+    "values": [
+      -1.98549962,
+      3.8569715
+    ],
+    "dynamic": "p",
+    "iteration": "3"
+  },
+  {
+    "name": "G3_p_4.wav",
+    "chord": "G3",
+    "values": [
+      -1.80195284,
+      3.7319715
+    ],
+    "dynamic": "p",
+    "iteration": "4"
+  },
+  {
+    "name": "G3_p_5.wav",
+    "chord": "G3",
+    "values": [
+      -2.09233832,
+      3.94656992
+    ],
+    "dynamic": "p",
+    "iteration": "5"
+  },
+  {
+    "name": "G3_p_6.wav",
+    "chord": "G3",
+    "values": [
+      -2.13920927,
+      3.91941595
+    ],
+    "dynamic": "p",
+    "iteration": "6"
+  },
+  {
+    "name": "G3_p_7.wav",
+    "chord": "G3",
+    "values": [
+      -1.88376272,
+      3.80534387
+    ],
+    "dynamic": "p",
+    "iteration": "7"
+  },
+  {
+    "name": "G3_p_8.wav",
+    "chord": "G3",
+    "values": [
+      -2.18041039,
+      3.92937183
+    ],
+    "dynamic": "p",
+    "iteration": "8"
+  },
+  {
+    "name": "G3_p_9.wav",
+    "chord": "G3",
+    "values": [
+      -2.27882671,
+      3.86812234
+    ],
+    "dynamic": "p",
+    "iteration": "9"
+  },
+  {
+    "name": "Am3_f_0.wav",
+    "chord": "Am3",
+    "values": [
+      20.59438515,
+      5.30197668
+    ],
+    "dynamic": "f",
+    "iteration": "0"
+  },
+  {
+    "name": "Am3_f_1.wav",
+    "chord": "Am3",
+    "values": [
+      23.80394173,
+      4.98063612
+    ],
+    "dynamic": "f",
+    "iteration": "1"
+  },
+  {
+    "name": "Am3_f_2.wav",
+    "chord": "Am3",
+    "values": [
+      26.20969009,
+      6.56229782
+    ],
+    "dynamic": "f",
+    "iteration": "2"
+  },
+  {
+    "name": "Am3_f_3.wav",
+    "chord": "Am3",
+    "values": [
+      29.60974312,
+      6.287745
+    ],
+    "dynamic": "f",
+    "iteration": "3"
+  },
+  {
+    "name": "Am3_f_4.wav",
+    "chord": "Am3",
+    "values": [
+      26.4452343,
+      6.0707221
+    ],
+    "dynamic": "f",
+    "iteration": "4"
+  },
+  {
+    "name": "Am3_f_5.wav",
+    "chord": "Am3",
+    "values": [
+      27.86934471,
+      6.67323208
+    ],
+    "dynamic": "f",
+    "iteration": "5"
+  },
+  {
+    "name": "Am3_f_6.wav",
+    "chord": "Am3",
+    "values": [
+      30.27851295,
+      6.02943277
+    ],
+    "dynamic": "f",
+    "iteration": "6"
+  },
+  {
+    "name": "Am3_f_7.wav",
+    "chord": "Am3",
+    "values": [
+      25.29969406,
+      6.44016695
+    ],
+    "dynamic": "f",
+    "iteration": "7"
+  },
+  {
+    "name": "Am3_f_8.wav",
+    "chord": "Am3",
+    "values": [
+      17.35901642,
+      5.45250225
+    ],
+    "dynamic": "f",
+    "iteration": "8"
+  },
+  {
+    "name": "Am3_f_9.wav",
+    "chord": "Am3",
+    "values": [
+      28.96595001,
+      5.69109917
+    ],
+    "dynamic": "f",
+    "iteration": "9"
+  },
+  {
+    "name": "Am3_m_0.wav",
+    "chord": "Am3",
+    "values": [
+      3.04142094,
+      11.51305866
+    ],
+    "dynamic": "m",
+    "iteration": "0"
+  },
+  {
+    "name": "Am3_m_1.wav",
+    "chord": "Am3",
+    "values": [
+      3.04495788,
+      11.30438995
+    ],
+    "dynamic": "m",
+    "iteration": "1"
+  },
+  {
+    "name": "Am3_m_2.wav",
+    "chord": "Am3",
+    "values": [
+      2.19284701,
+      9.37725353
+    ],
+    "dynamic": "m",
+    "iteration": "2"
+  },
+  {
+    "name": "Am3_m_3.wav",
+    "chord": "Am3",
+    "values": [
+      -0.21712743,
+      0.73755145
+    ],
+    "dynamic": "m",
+    "iteration": "3"
+  },
+  {
+    "name": "Am3_m_4.wav",
+    "chord": "Am3",
+    "values": [
+      3.18774724,
+      11.58908844
+    ],
+    "dynamic": "m",
+    "iteration": "4"
+  },
+  {
+    "name": "Am3_m_5.wav",
+    "chord": "Am3",
+    "values": [
+      2.89514422,
+      10.96384811
+    ],
+    "dynamic": "m",
+    "iteration": "5"
+  },
+  {
+    "name": "Am3_m_6.wav",
+    "chord": "Am3",
+    "values": [
+      2.29820037,
+      10.4609642
+    ],
+    "dynamic": "m",
+    "iteration": "6"
+  },
+  {
+    "name": "Am3_m_7.wav",
+    "chord": "Am3",
+    "values": [
+      2.95621276,
+      11.32361317
+    ],
+    "dynamic": "m",
+    "iteration": "7"
+  },
+  {
+    "name": "Am3_m_8.wav",
+    "chord": "Am3",
+    "values": [
+      3.00444913,
+      11.52963352
+    ],
+    "dynamic": "m",
+    "iteration": "8"
+  },
+  {
+    "name": "Am3_m_9.wav",
+    "chord": "Am3",
+    "values": [
+      2.81859875,
+      11.25044632
+    ],
+    "dynamic": "m",
+    "iteration": "9"
+  },
+  {
+    "name": "Am3_p_0.wav",
+    "chord": "Am3",
+    "values": [
+      -0.21713988,
+      3.64997935
+    ],
+    "dynamic": "p",
+    "iteration": "0"
+  },
+  {
+    "name": "Am3_p_1.wav",
+    "chord": "Am3",
+    "values": [
+      0.32797229,
+      4.68398762
+    ],
+    "dynamic": "p",
+    "iteration": "1"
+  },
+  {
+    "name": "Am3_p_2.wav",
+    "chord": "Am3",
+    "values": [
+      0.15096684,
+      4.25980759
+    ],
+    "dynamic": "p",
+    "iteration": "2"
+  },
+  {
+    "name": "Am3_p_3.wav",
+    "chord": "Am3",
+    "values": [
+      0.36340052,
+      4.83962107
+    ],
+    "dynamic": "p",
+    "iteration": "3"
+  },
+  {
+    "name": "Am3_p_4.wav",
+    "chord": "Am3",
+    "values": [
+      0.37564802,
+      4.52744627
+    ],
+    "dynamic": "p",
+    "iteration": "4"
+  },
+  {
+    "name": "Am3_p_5.wav",
+    "chord": "Am3",
+    "values": [
+      -0.06715383,
+      5.2832365
+    ],
+    "dynamic": "p",
+    "iteration": "5"
+  },
+  {
+    "name": "Am3_p_6.wav",
+    "chord": "Am3",
+    "values": [
+      0.17053699,
+      4.4691782
+    ],
+    "dynamic": "p",
+    "iteration": "6"
+  },
+  {
+    "name": "Am3_p_7.wav",
+    "chord": "Am3",
+    "values": [
+      -0.68762064,
+      3.67456651
+    ],
+    "dynamic": "p",
+    "iteration": "7"
+  },
+  {
+    "name": "Am3_p_8.wav",
+    "chord": "Am3",
+    "values": [
+      0.25284463,
+      4.33851862
+    ],
+    "dynamic": "p",
+    "iteration": "8"
+  },
+  {
+    "name": "Am3_p_9.wav",
+    "chord": "Am3",
+    "values": [
+      -0.17845739,
+      4.46374035
+    ],
+    "dynamic": "p",
+    "iteration": "9"
+  },
+  {
+    "name": "Bdim3_f_0.wav",
+    "chord": "Bdim3",
+    "values": [
+      19.49625206,
+      2.54946446
+    ],
+    "dynamic": "f",
+    "iteration": "0"
+  },
+  {
+    "name": "Bdim3_f_1.wav",
+    "chord": "Bdim3",
+    "values": [
+      17.80192947,
+      3.10648179
+    ],
+    "dynamic": "f",
+    "iteration": "1"
+  },
+  {
+    "name": "Bdim3_f_2.wav",
+    "chord": "Bdim3",
+    "values": [
+      24.65192604,
+      2.72751427
+    ],
+    "dynamic": "f",
+    "iteration": "2"
+  },
+  {
+    "name": "Bdim3_f_3.wav",
+    "chord": "Bdim3",
+    "values": [
+      14.57100964,
+      3.54578161
+    ],
+    "dynamic": "f",
+    "iteration": "3"
+  },
+  {
+    "name": "Bdim3_f_4.wav",
+    "chord": "Bdim3",
+    "values": [
+      19.36121941,
+      2.63458753
+    ],
+    "dynamic": "f",
+    "iteration": "4"
+  },
+  {
+    "name": "Bdim3_f_5.wav",
+    "chord": "Bdim3",
+    "values": [
+      23.18410683,
+      2.50343204
+    ],
+    "dynamic": "f",
+    "iteration": "5"
+  },
+  {
+    "name": "Bdim3_f_6.wav",
+    "chord": "Bdim3",
+    "values": [
+      23.18158722,
+      2.7210927
+    ],
+    "dynamic": "f",
+    "iteration": "6"
+  },
+  {
+    "name": "Bdim3_f_7.wav",
+    "chord": "Bdim3",
+    "values": [
+      15.21220112,
+      3.30349016
+    ],
+    "dynamic": "f",
+    "iteration": "7"
+  },
+  {
+    "name": "Bdim3_f_8.wav",
+    "chord": "Bdim3",
+    "values": [
+      21.16867638,
+      2.99564838
+    ],
+    "dynamic": "f",
+    "iteration": "8"
+  },
+  {
+    "name": "Bdim3_f_9.wav",
+    "chord": "Bdim3",
+    "values": [
+      20.03045464,
+      2.77434635
+    ],
+    "dynamic": "f",
+    "iteration": "9"
+  },
+  {
+    "name": "Bdim3_m_0.wav",
+    "chord": "Bdim3",
+    "values": [
+      1.43959951,
+      14.2548008
+    ],
+    "dynamic": "m",
+    "iteration": "0"
+  },
+  {
+    "name": "Bdim3_m_1.wav",
+    "chord": "Bdim3",
+    "values": [
+      1.80332386,
+      13.49678326
+    ],
+    "dynamic": "m",
+    "iteration": "1"
+  },
+  {
+    "name": "Bdim3_m_2.wav",
+    "chord": "Bdim3",
+    "values": [
+      1.98134327,
+      14.63468361
+    ],
+    "dynamic": "m",
+    "iteration": "2"
+  },
+  {
+    "name": "Bdim3_m_3.wav",
+    "chord": "Bdim3",
+    "values": [
+      1.28309381,
+      13.96183395
+    ],
+    "dynamic": "m",
+    "iteration": "3"
+  },
+  {
+    "name": "Bdim3_m_4.wav",
+    "chord": "Bdim3",
+    "values": [
+      1.30262291,
+      14.08542061
+    ],
+    "dynamic": "m",
+    "iteration": "4"
+  },
+  {
+    "name": "Bdim3_m_5.wav",
+    "chord": "Bdim3",
+    "values": [
+      1.46130502,
+      14.60199547
+    ],
+    "dynamic": "m",
+    "iteration": "5"
+  },
+  {
+    "name": "Bdim3_m_6.wav",
+    "chord": "Bdim3",
+    "values": [
+      1.45598972,
+      13.95342541
+    ],
+    "dynamic": "m",
+    "iteration": "6"
+  },
+  {
+    "name": "Bdim3_m_7.wav",
+    "chord": "Bdim3",
+    "values": [
+      1.54684937,
+      15.24244213
+    ],
+    "dynamic": "m",
+    "iteration": "7"
+  },
+  {
+    "name": "Bdim3_m_8.wav",
+    "chord": "Bdim3",
+    "values": [
+      2.08366275,
+      14.31103134
+    ],
+    "dynamic": "m",
+    "iteration": "8"
+  },
+  {
+    "name": "Bdim3_m_9.wav",
+    "chord": "Bdim3",
+    "values": [
+      1.26972115,
+      13.61509895
+    ],
+    "dynamic": "m",
+    "iteration": "9"
+  },
+  {
+    "name": "Bdim3_p_0.wav",
+    "chord": "Bdim3",
+    "values": [
+      -0.76096547,
+      4.04313135
+    ],
+    "dynamic": "p",
+    "iteration": "0"
+  },
+  {
+    "name": "Bdim3_p_1.wav",
+    "chord": "Bdim3",
+    "values": [
+      -0.26270872,
+      5.04331732
+    ],
+    "dynamic": "p",
+    "iteration": "1"
+  },
+  {
+    "name": "Bdim3_p_2.wav",
+    "chord": "Bdim3",
+    "values": [
+      -0.47367793,
+      4.1779685
+    ],
+    "dynamic": "p",
+    "iteration": "2"
+  },
+  {
+    "name": "Bdim3_p_3.wav",
+    "chord": "Bdim3",
+    "values": [
+      -1.68772852,
+      3.79501963
+    ],
+    "dynamic": "p",
+    "iteration": "3"
+  },
+  {
+    "name": "Bdim3_p_4.wav",
+    "chord": "Bdim3",
+    "values": [
+      -0.44922051,
+      4.06728888
+    ],
+    "dynamic": "p",
+    "iteration": "4"
+  },
+  {
+    "name": "Bdim3_p_5.wav",
+    "chord": "Bdim3",
+    "values": [
+      -0.21066718,
+      5.12415648
+    ],
+    "dynamic": "p",
+    "iteration": "5"
+  },
+  {
+    "name": "Bdim3_p_6.wav",
+    "chord": "Bdim3",
+    "values": [
+      -1.17001402,
+      3.27460098
+    ],
+    "dynamic": "p",
+    "iteration": "6"
+  },
+  {
+    "name": "Bdim3_p_7.wav",
+    "chord": "Bdim3",
+    "values": [
+      -0.67420346,
+      3.95768595
+    ],
+    "dynamic": "p",
+    "iteration": "7"
+  },
+  {
+    "name": "Bdim3_p_8.wav",
+    "chord": "Bdim3",
+    "values": [
+      -0.40164387,
+      4.51243067
+    ],
+    "dynamic": "p",
+    "iteration": "8"
+  },
+  {
+    "name": "Bdim3_p_9.wav",
+    "chord": "Bdim3",
+    "values": [
+      -0.17388168,
+      4.84496498
+    ],
+    "dynamic": "p",
+    "iteration": "9"
+  },
+  {
+    "name": "C4_f_0.wav",
+    "chord": "C4",
+    "values": [
+      14.04985332,
+      5.23968077
+    ],
+    "dynamic": "f",
+    "iteration": "0"
+  },
+  {
+    "name": "C4_f_1.wav",
+    "chord": "C4",
+    "values": [
+      13.11946392,
+      4.54062843
+    ],
+    "dynamic": "f",
+    "iteration": "1"
+  },
+  {
+    "name": "C4_f_2.wav",
+    "chord": "C4",
+    "values": [
+      15.59888554,
+      4.10568666
+    ],
+    "dynamic": "f",
+    "iteration": "2"
+  },
+  {
+    "name": "C4_f_3.wav",
+    "chord": "C4",
+    "values": [
+      13.9575634,
+      5.12133455
+    ],
+    "dynamic": "f",
+    "iteration": "3"
+  },
+  {
+    "name": "C4_f_4.wav",
+    "chord": "C4",
+    "values": [
+      11.6996088,
+      4.41750669
+    ],
+    "dynamic": "f",
+    "iteration": "4"
+  },
+  {
+    "name": "C4_f_5.wav",
+    "chord": "C4",
+    "values": [
+      7.57786512,
+      4.8683486
+    ],
+    "dynamic": "f",
+    "iteration": "5"
+  },
+  {
+    "name": "C4_f_6.wav",
+    "chord": "C4",
+    "values": [
+      13.2246685,
+      4.72250271
+    ],
+    "dynamic": "f",
+    "iteration": "6"
+  },
+  {
+    "name": "C4_f_7.wav",
+    "chord": "C4",
+    "values": [
+      11.93191242,
+      4.64757967
+    ],
+    "dynamic": "f",
+    "iteration": "7"
+  },
+  {
+    "name": "C4_f_8.wav",
+    "chord": "C4",
+    "values": [
+      10.78551579,
+      5.40685034
+    ],
+    "dynamic": "f",
+    "iteration": "8"
+  },
+  {
+    "name": "C4_f_9.wav",
+    "chord": "C4",
+    "values": [
+      4.50901175,
+      8.64897633
+    ],
+    "dynamic": "f",
+    "iteration": "9"
+  },
+  {
+    "name": "C4_m_0.wav",
+    "chord": "C4",
+    "values": [
+      0.09009378,
+      14.09993076
+    ],
+    "dynamic": "m",
+    "iteration": "0"
+  },
+  {
+    "name": "C4_m_1.wav",
+    "chord": "C4",
+    "values": [
+      0.33680466,
+      15.14502811
+    ],
+    "dynamic": "m",
+    "iteration": "1"
+  },
+  {
+    "name": "C4_m_2.wav",
+    "chord": "C4",
+    "values": [
+      0.24785165,
+      15.97578526
+    ],
+    "dynamic": "m",
+    "iteration": "2"
+  },
+  {
+    "name": "C4_m_3.wav",
+    "chord": "C4",
+    "values": [
+      0.46489355,
+      15.8448534
+    ],
+    "dynamic": "m",
+    "iteration": "3"
+  },
+  {
+    "name": "C4_m_4.wav",
+    "chord": "C4",
+    "values": [
+      0.25148124,
+      15.08518982
+    ],
+    "dynamic": "m",
+    "iteration": "4"
+  },
+  {
+    "name": "C4_m_5.wav",
+    "chord": "C4",
+    "values": [
+      0.22022361,
+      15.64081764
+    ],
+    "dynamic": "m",
+    "iteration": "5"
+  },
+  {
+    "name": "C4_m_6.wav",
+    "chord": "C4",
+    "values": [
+      0.69290203,
+      14.72818851
+    ],
+    "dynamic": "m",
+    "iteration": "6"
+  },
+  {
+    "name": "C4_m_7.wav",
+    "chord": "C4",
+    "values": [
+      0.66557467,
+      16.0634613
+    ],
+    "dynamic": "m",
+    "iteration": "7"
+  },
+  {
+    "name": "C4_m_8.wav",
+    "chord": "C4",
+    "values": [
+      0.08435073,
+      15.28747749
+    ],
+    "dynamic": "m",
+    "iteration": "8"
+  },
+  {
+    "name": "C4_m_9.wav",
+    "chord": "C4",
+    "values": [
+      0.19004606,
+      15.77955627
+    ],
+    "dynamic": "m",
+    "iteration": "9"
+  },
+  {
+    "name": "C4_p_0.wav",
+    "chord": "C4",
+    "values": [
+      -0.48830777,
+      2.56886816
+    ],
+    "dynamic": "p",
+    "iteration": "0"
+  },
+  {
+    "name": "C4_p_1.wav",
+    "chord": "C4",
+    "values": [
+      0.18137696,
+      3.80979085
+    ],
+    "dynamic": "p",
+    "iteration": "1"
+  },
+  {
+    "name": "C4_p_2.wav",
+    "chord": "C4",
+    "values": [
+      -0.15985301,
+      3.16707158
+    ],
+    "dynamic": "p",
+    "iteration": "2"
+  },
+  {
+    "name": "C4_p_3.wav",
+    "chord": "C4",
+    "values": [
+      -0.02906243,
+      3.43492961
+    ],
+    "dynamic": "p",
+    "iteration": "3"
+  },
+  {
+    "name": "C4_p_4.wav",
+    "chord": "C4",
+    "values": [
+      -0.40039819,
+      2.84380078
+    ],
+    "dynamic": "p",
+    "iteration": "4"
+  },
+  {
+    "name": "C4_p_5.wav",
+    "chord": "C4",
+    "values": [
+      -0.02673351,
+      3.23259139
+    ],
+    "dynamic": "p",
+    "iteration": "5"
+  },
+  {
+    "name": "C4_p_6.wav",
+    "chord": "C4",
+    "values": [
+      -0.00495123,
+      3.34537411
+    ],
+    "dynamic": "p",
+    "iteration": "6"
+  },
+  {
+    "name": "C4_p_7.wav",
+    "chord": "C4",
+    "values": [
+      -0.03328995,
+      3.71608996
+    ],
+    "dynamic": "p",
+    "iteration": "7"
+  },
+  {
+    "name": "C4_p_8.wav",
+    "chord": "C4",
+    "values": [
+      0.35763004,
+      4.61681509
+    ],
+    "dynamic": "p",
+    "iteration": "8"
+  },
+  {
+    "name": "C4_p_9.wav",
+    "chord": "C4",
+    "values": [
+      0.30191618,
+      4.20340157
+    ],
+    "dynamic": "p",
+    "iteration": "9"
+  }
+]
