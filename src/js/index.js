@@ -1,7 +1,7 @@
 import * as d3 from "d3"
 import "../index.html"
 import "../css/main.css"
-import Data from "../data/iris.csv"
+import data from "../assets/points.json"
 import "./interactions.js"
 import "../assets/grip-lines-1white.svg"
 import "normalize.css"
@@ -36,8 +36,8 @@ var svg = d3
   .classed("svg-content-responsive", true)
   .append("g")
 
-const x = d3.scaleLinear().domain([-20, 40]).range([0, width])
-const y = d3.scaleLinear().domain([-50, 20]).range([height, 0])
+const x = d3.scaleLinear().domain([-20, 41]).range([0, width])
+const y = d3.scaleLinear().domain([-53, 20]).range([height, 0])
 const xAxis = d3.axisBottom(x)
 const yAxis = d3.axisLeft(y)
 const xAxisGrid = d3.axisBottom(x).tickSize(-height).tickFormat("").ticks(16)
@@ -59,31 +59,34 @@ svg
   .call(xAxis)
 svg.append("g").attr("class", "y axis").call(yAxis)
 
-//Read the data
-d3.csv(Data).then((data) => {
-  // Color scale: give me a specie name, I return a color
-  const color = d3
-    .scaleOrdinal()
-    .domain(["setosa", "versicolor", "virginica"])
-    .range(["#440154ff", "#21908dff", "#fde725ff"])
-
-  // Add dots
-  svg
-    .append("g")
-    .selectAll("dot")
-    .data(data)
-    .enter()
-    .append("circle")
-    .attr("cx", function (d) {
-      return x(d.Sepal_Length)
-    })
-    .attr("cy", function (d) {
-      return y(d.Petal_Length)
-    })
-    .attr("r", 5)
-    .style("fill", function (d) {
-      return color(d.Species)
-    })
+// Add dots
+svg
+  .append("g")
+  .selectAll("dot")
+  .data(data)
+  .enter()
+  .append("circle")
+  .attr("class", function (d) {
+    return d.chord
+  })
+  .attr("cx", function (d) {
+    return x(d.values[0])
+  })
+  .attr("cy", function (d) {
+    return y(d.values[1])
+  })
+  .attr("r", function (d) {
+    if (d.dynamic == "p") {
+      return 4
+    } else if (d.dynamic == "m") {
+      return 7
+    } else {
+      return 10
+    }
+  })
+  .style("fill", function (d) {
+    return colormap[d.chord]
+  })
   
 d3.select("#dataviz").on("click", addPoint(d3, svg, x, y))
 document.getElementById("record-button").addEventListener("click", toggleRec)
@@ -111,6 +114,3 @@ chords.map((chordName) => {
     .append("p")
     .text(chordName)
 })
-
-d3.select("#dataviz").on("click",addPoint(d3,svg,x,y))
-document.getElementById("record-button").addEventListener("click",toggleRec)

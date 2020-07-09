@@ -1,28 +1,54 @@
-const chords = [
-  "C2",
-  'Dm2',
-  'Em2',
-  'F2',
-  'G2',
+export const chords = [
   'Am2',
-  'Bdim2',
-  'C3',
-  'Dm3',
-  'Em3',
-  'F3',
-  'G3',
   'Am3',
+  'Bdim2',
   'Bdim3',
-  'C4'
+  "C2",
+  'C3',
+  'C4',
+  'Dm2',
+  'Dm3',
+  'Em2',
+  'Em3',
+  'F2',
+  'F3',
+  'G2',
+  'G3',
 ]
 
-const container =document.getElementById("box-legend")
 
-chords.map(chordName=>{
-    const item=document.createElement('div')
-    const text = document.createElement("p")
-    text.innerText=chordName
-    
-    item.appendChild(text)
-    container.appendChild(item)
-})
+
+// export const colormap = {
+//   Am2: "#005980",
+//   Am3: "#006692",
+//   Bdim2: "#0074A0",
+//   Bdim3: "#0081AC",
+//   C2: "#008EB8",
+//   C3: "#009BC2",
+//   C4: "#00A7CC",
+//   Dm2: "#00B3D4",
+//   Dm3: "#12D3D9",
+//   Em2: "#24DECB",
+//   Em3: "#37E2BB",
+//   F2: "#49E6AD",
+//   F3: "#5BEAA3",
+//   G2: "#6DED9C",
+//   G3: "#80F099",
+// }
+export const colormap = {
+  Am2: "#79008E",
+  Am3: "#5D0098",
+  Bdim2: "#3B00A2",
+  Bdim3: "#1500AC",
+  C2: "#0014B6",
+  C3: "#0044C0",
+  C4: "#0079CA",
+  Dm2: "#00B3D4",
+  Dm3: "#0ED8A4",
+  Em2: "#1CDC5A",
+  Em3: "#35E02B",
+  F2: "#8AE439",
+  F3: "#D7E747",
+  G2: "#EAB955",
+  G3: "#ED8364",
+}
