@@ -8,9 +8,16 @@ import "normalize.css"
 import "./constants.js"
 import "core-js-bundle"
 import "regenerator-runtime/runtime"
-
-// import "regenerator-runtime/runtime"
-import  {addPoint, toggleRec} from "./recording"
+import "../../favicon.ico"
+import "../../site.webmanifest"
+import "../assets/favicon_io/android-chrome-192x192.png"
+import "../assets/favicon_io/android-chrome-512x512.png"
+import "../assets/favicon_io/apple-touch-icon.png"
+import "../assets/favicon_io/favicon-16x16.png"
+import "../assets/favicon_io/favicon-32x32.png"
+import "../assets/Pridi-Light.ttf"
+import { colormap, chords } from "./constants.js"
+import { addPoint, toggleRec } from "./recording"
 const width = window.innerWidth
 const height = window.innerHeight
 
@@ -77,6 +84,32 @@ d3.csv(Data).then((data) => {
     .style("fill", function (d) {
       return color(d.Species)
     })
+  
+d3.select("#dataviz").on("click", addPoint(d3, svg, x, y))
+document.getElementById("record-button").addEventListener("click", toggleRec)
+
+// insert legends
+
+const container = document.getElementById("box-legend")
+
+chords.map((chordName) => {
+  const item = document.createElement("div")
+  item.id = "legend-" + chordName
+  container.appendChild(item)
+
+  d3.select("#legend-" + chordName)
+    .append("svg")
+    .attr("width", 30)
+    .attr("height", 92)
+    .append("rect")
+    .attr("x", 0)
+    .attr("y", 31)
+    .attr("width", 30)
+    .attr("height", 30)
+    .attr("fill", colormap[chordName])
+  d3.select("#legend-" + chordName)
+    .append("p")
+    .text(chordName)
 })
 
 d3.select("#dataviz").on("click",addPoint(d3,svg,x,y))
