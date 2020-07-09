@@ -122,6 +122,11 @@ function SelectBox(elementidx) {
   }
 }
 
+function playSound(button) {
+  const audio = button.querySelector("audio")
+  audio.play()
+}
+
 document.onkeyup = function (e) {
   if (e.ctrlKey && e.which == 82) {
    toggleRec()
@@ -129,3 +134,4 @@ document.onkeyup = function (e) {
 }
 
 window.SelectBox = SelectBox
+window.playSound = playSound
