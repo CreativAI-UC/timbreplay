@@ -31,8 +31,11 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(csv|ttf|svg)$/,
-        use: ["file-loader"],
+        test: /\.(png|ico|webmanifest|ttf|svg|wav)$/,
+        loader: "file-loader",
+        options: {
+          name: "[path][name].[ext]",
+        },
       },
     ],
   },
