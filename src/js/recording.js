@@ -29,20 +29,28 @@ async function fetchAudio(x, y) {
 }
 
 export function addPoint(d3, svg,scaleX,scaleY) {
-  return function () {
+  return async function () {
     if (RECORDING) {
       const mouse = d3.mouse(this)
       const clickedX = scaleX.invert( mouse[0])
       const clickedY = scaleY.invert(mouse[1])
 
-      svg
+      const new_point = svg
         .append("circle")
         .attr("cx", mouse[0])
         .attr("cy", mouse[1])
         .attr("r", 15)
         .attr("fill", "#de8a0d")
-
-      fetchAudio(clickedX, clickedY).then((response) => {
+        
+      new_point.transition()
+        .duration(500)
+        .attr("r",7)
+      
+      const url = await fetchAudio(clickedX, clickedY).then((response) => {
+        new_point
+        .transition()
+        .duration(100)
+        .attr("fill", "#0d33de")
         // response.value for fetch streams is a Uint8Array
         var blob = new Blob([response.value], { type: "audio/wav" })
         var url = window.URL.createObjectURL(blob)
