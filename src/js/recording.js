@@ -36,15 +36,20 @@ export function addPoint(d3, svg,scaleX,scaleY) {
       const clickedY = scaleY.invert(mouse[1])
 
       const new_point = svg
-        .append("circle")
-        .attr("cx", mouse[0])
-        .attr("cy", mouse[1])
-        .attr("r", 15)
+        .append("rect")
+        .attr("x", mouse[0]-16)
+        .attr("y", mouse[1]-16)
+        .attr("width", 32)
+        .attr("height", 32)
         .attr("fill", "#de8a0d")
         
-      new_point.transition()
+      new_point
+        .transition()
         .duration(500)
-        .attr("r",7)
+        .attr("x", mouse[0] - 8)
+        .attr("y", mouse[1] - 8)
+        .attr("width", 16)
+        .attr("height", 16)
       
       const url = await fetchAudio(clickedX, clickedY).then((response) => {
         new_point
