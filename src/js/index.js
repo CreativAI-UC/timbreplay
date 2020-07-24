@@ -16,8 +16,9 @@ import "../assets/favicon_io/apple-touch-icon.png"
 import "../assets/favicon_io/favicon-16x16.png"
 import "../assets/favicon_io/favicon-32x32.png"
 import "../assets/Pridi-Light.ttf"
-import { colormap, chords } from "./constants.js"
+import { colormap, chords } from "./constants"
 import { addPoint, toggleRec } from "./recording"
+import {mouseover,mousemove,mouseleave} from "./interactions"
 const width = window.innerWidth
 const height = window.innerHeight
 
@@ -59,6 +60,15 @@ svg
   .call(xAxis)
 svg.append("g").attr("class", "y axis").call(yAxis)
 
+  // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
+  // Its opacity is set to 0: we don't see it by default.
+  const tooltip = d3
+    .select("#dataviz")
+    .append("div")
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+
+
 // Add dots
 svg
   .append("g")
@@ -87,6 +97,9 @@ svg
   .style("fill", function (d) {
     return colormap[d.chord]
   })
+  .on("mouseover", mouseover(tooltip))
+  .on("mousemove", mousemove(tooltip,d3, width))
+  .on("mouseleave", mouseleave(tooltip))
   
 d3.select("#dataviz").on("click", addPoint(d3, svg, x, y))
 document.getElementById("record-button").addEventListener("click", toggleRec)

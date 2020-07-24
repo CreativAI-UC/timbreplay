@@ -4,6 +4,9 @@
   font-weight: 300;
   font-style: normal;
 }
+html {
+  overflow: hidden;
+}
 
 body {
   position: relative;
@@ -38,6 +41,9 @@ body {
   top: 30px;
   right: 50px;
   z-index: 1;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
 }
 
 @keyframes changecolor {
@@ -190,7 +196,7 @@ body {
 }
 
 #button-container button.selected {
-   background-color: grey;
+  background-color: #252222;
 }
 
 .hide {
@@ -269,6 +275,10 @@ div#box-content p {
   font-style: normal;
   color: #ffffff;
 }
+
+div#box-legend>div{
+  display: flex;
+} 
 
 div#box-filter p,
 div#box-legend p {
@@ -508,4 +518,22 @@ p.helper-text {
   top: 28.26%;
   bottom: 28.26%;
   fill: #c83b3b;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: #1a1110;
+  border: 1px solid #575757;
+  padding: 10px;
+  display: flex;
+}
+.tooltip p {
+    font-family: "Pridi";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 40px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
 }

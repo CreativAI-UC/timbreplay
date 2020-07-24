@@ -16,6 +16,11 @@ export const chords = [
   'G3',
 ]
 
+export const dynamic_names={
+  "f":"forte",
+  "p":"piano",
+  "m":"mesoforte"
+}
 
 
 // export const colormap = {
@@ -52,3 +57,37 @@ export const colormap = {
   G2: "#EAB955",
   G3: "#ED8364",
 }
+// export const colormap = {
+//   Am2: "#AB3B00",
+//   Am3: "#B79D00",
+//   Bdim2: "#99C300",
+//   Bdim3: "#3ECF00",
+//   C2: "#00DB0D",
+//   C3: "#00E777",
+//   C4: "#00EEE4",
+//   Dm2: "#0398F5",
+//   Dm3: "#1552FF",
+//   Em2: "#2A2AFF",
+//   Em3: "#793FFF",
+//   F2: "#D855FF",
+//   F3: "#FF6AFF",
+//   G2: "#FF7FE1",
+//   G3: "#FF94A6",
+// }
+// export const colormap = {
+//   Am2: "#7C7C7C",
+//   Am3: "#736B8D",
+//   Bdim2: "#9F5998",
+//   Bdim3: "#B0484D",
+//   C2: "#C1A737",
+//   C3: "#5FD226",
+//   C4: "#14E482",
+//   Dm2: "#0398F5",
+//   Dm3: "#00FF9B",
+//   Em2: "#13FF00",
+//   Em3: "#FFFF00",
+//   F2: "#FF2C00",
+//   F3: "#FF0076",
+//   G2: "#E900FF",
+//   G3: "#0000FF",
+// }
