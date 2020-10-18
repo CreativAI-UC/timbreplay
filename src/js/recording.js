@@ -7,7 +7,7 @@ async function fetchAudio(x, y) {
     headers: {
       Pragma: "no-cache",
       "Cache-Control": "no-cache",
-      "Access-Control-Allow-Origin":"*"
+      "Access-Control-Allow-Origin": "*",
     },
     method: "GET",
   }
@@ -18,17 +18,17 @@ async function fetchAudio(x, y) {
   ).then((res) => {
     if (!res.ok) throw new Error(`${res.status} = ${res.statusText}`) // response.body is a readable stream.
     // Calling getReader() gives us exclusive access to
-    // the stream's content      
-    const reader = res.body.getReader();
+    // the stream's content
+    const reader = res.body.getReader()
     // read() returns a promise that resolves
-    // when a value has been received      
+    // when a value has been received
     return reader.read().then((result) => {
       return result
     })
   })
 }
 
-export function addPoint(d3, svg,scaleX,scaleY) {
+export function addPoint(d3, svg, scaleX, scaleY) {
   return async function () {
     if (RECORDING) {
       const mouse = d3.mouse(this)
@@ -98,7 +98,7 @@ export function toggleRec() {
   const content_boxes = document.querySelectorAll("div#box-content > div")
 
   content_boxes.forEach((elem) => elem.classList.add("hide"))
-  content_boxes[3].classList.remove("hide")
+  content_boxes[2].classList.remove("hide")
 
   const recording_label = document.querySelector("#recording-label")
 
@@ -108,3 +108,13 @@ export function toggleRec() {
     recording_label.classList.remove("hide")
   }
 }
+
+export function stopRec() {
+  if (RECORDING) {
+    toggleRec()
+  }
+}
+
+window.toggleRec = toggleRec
+window.deletePoint = deletePoint
+window.stopRec = stopRec
