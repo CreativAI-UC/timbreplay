@@ -46,6 +46,16 @@ body {
   border: none;
 }
 
+#help-button {
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  z-index: 1;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
 @keyframes changecolor {
   from {
     color:#c83b3b;
@@ -65,8 +75,8 @@ body {
   font-family: "Pridi";
   font-style: normal;
   font-weight: 300;
-  font-size: 23px;
-  line-height: 87px;
+  font-size: 30px;
+  line-height: 100px;
   color: #c83b3b;
   
   animation-duration: 1s;
@@ -171,17 +181,18 @@ body {
 
 #button-container button {
   position: static;
-  width: 140px;
-  height: 70px;
+  /* width: 140px; */
+  /* height: 70px; */
+  flex: 2 1 auto;
   left: 280px;
   top: 0px;
 
   border: 2px solid rgba(64, 64, 64, 0.59);
 
   /* Inside Auto Layout */
-  flex: none;
+  /* flex: none;
   align-self: center;
-  margin: 0px 0px;
+  margin: 0px 0px; */
 
   font-family: "Pridi";
   font-style: normal;

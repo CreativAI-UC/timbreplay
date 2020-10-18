@@ -106,17 +106,17 @@ function SelectBox(elementidx) {
     if (!RECORDING) {
       content_boxes[0].classList.remove("hide")
     } else {
-      content_boxes[3].classList.remove("hide")
+      content_boxes[2].classList.remove("hide")
     }
   }
   if (elementidx == 2) {
     content_boxes[1].classList.remove("hide")
     box_buttons[1].classList.add("selected")
   }
-  if (elementidx == 3) {
-    box_buttons[2].classList.add("selected")
-    content_boxes[2].classList.remove("hide")
-  }
+  // if (elementidx == 3) {
+  //   box_buttons[2].classList.add("selected")
+  //   content_boxes[2].classList.remove("hide")
+  // }
 }
 
 function playSound(button) {
