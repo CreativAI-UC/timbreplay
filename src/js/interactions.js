@@ -124,6 +124,25 @@ function playSound(button) {
   audio.play()
 }
 
+function playAll(){
+  const audioRows=document.querySelectorAll('.recorded-chord audio')
+  console.log(audioRows);
+  let i = -1
+
+  function playNoteSequence(){
+    if (i>=audioRows.length-1) {
+      return
+    }
+    if (i>=0){
+      audioRows[i].removeEventListener('ended', playNoteSequence)
+    }
+    i++
+    audioRows[i].play()
+    audioRows[i].addEventListener("ended", playNoteSequence)
+  }
+  playNoteSequence()
+}
+
 document.onkeyup = function (e) {
   if (e.ctrlKey && e.which == 82) {
     toggleRec()
@@ -200,4 +219,5 @@ function redrawSvg() {
 window.SelectBox = SelectBox
 window.playSound = playSound
 window.playAudioById = playAudioById
+window.playAll = playAll
 window.onresize = redrawSvg
