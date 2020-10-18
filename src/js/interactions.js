@@ -153,7 +153,7 @@ export const mousemove = (tooltip, d3, documentWidth) =>
           d.name +
           '"preload="none"> <source src="https://storage.googleapis.com/timbreplay-chords/piano_' +
           d.name +
-          '.wav" type="audio/wav">   Your browser does not support the <code>audio</code> element.</audio>'
+          '.mp3" type="audio/mp3">   Your browser does not support the <code>audio</code> element.</audio>'
       )
       .style(
         "left",
