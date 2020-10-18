@@ -32,17 +32,17 @@ export function addPoint(d3, svg,scaleX,scaleY) {
   return async function () {
     if (RECORDING) {
       const mouse = d3.mouse(this)
-      const clickedX = scaleX.invert( mouse[0])
+      const clickedX = scaleX.invert(mouse[0])
       const clickedY = scaleY.invert(mouse[1])
 
       const new_point = svg
         .append("rect")
-        .attr("x", mouse[0]-16)
-        .attr("y", mouse[1]-16)
+        .attr("x", mouse[0] - 16)
+        .attr("y", mouse[1] - 16)
         .attr("width", 32)
         .attr("height", 32)
         .attr("fill", "#de8a0d")
-        
+
       new_point
         .transition()
         .duration(500)
@@ -50,12 +50,9 @@ export function addPoint(d3, svg,scaleX,scaleY) {
         .attr("y", mouse[1] - 8)
         .attr("width", 16)
         .attr("height", 16)
-      
+
       const url = await fetchAudio(clickedX, clickedY).then((response) => {
-        new_point
-        .transition()
-        .duration(100)
-        .attr("fill", "#0d33de")
+        new_point.transition().duration(100).attr("fill", "#0d33de")
         // response.value for fetch streams is a Uint8Array
         var blob = new Blob([response.value], { type: "audio/wav" })
         var url = window.URL.createObjectURL(blob)
@@ -65,21 +62,34 @@ export function addPoint(d3, svg,scaleX,scaleY) {
         return url
       })
 
-      const box = document.querySelector("#box-record")
+      const container = document.querySelector("#box-record")
       const template = document.querySelector("#chord-template")
-      
+
       // Clone the new row and insert it into the table
-      const clone = template.content.cloneNode(true)
-      const playButton = clone.querySelector("div.chord-play")
+      const row = template.content.cloneNode(true)
+      const playButton = row.querySelector("div.chord-play")
+
       const audio = new Audio()
       audio.src = url
-      const row = clone.querySelector("p.chord-name")
-      row.innerHTML = `Note ${CHORD_COUNT}`
-      box.appendChild(clone)
+
+      const title = row.querySelector("p.chord-name")
+      title.innerHTML = `Note ${CHORD_COUNT}`
+
+      container.appendChild(row)
+      const id = btoa(clickedX.toString() + clickedY.toString())
+      const lastRow = container.querySelector(".recorded-chord:last-child")
+      lastRow.id = id
+      lastRow.querySelector(".chord-delete").id = id
       playButton.appendChild(audio)
       CHORD_COUNT += 1
     }
   }
+}
+
+export function deletePoint(deleteButton) {
+  const id = deleteButton.id
+  const fullRow = document.getElementById(id)
+  fullRow.remove()
 }
 
 export function toggleRec() {
