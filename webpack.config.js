@@ -47,6 +47,11 @@ module.exports = {
       title: "TimbrePlay",
       template: "src/index.html",
     }),
+    new HtmlWebpackPlugin({
+      title: "About",
+      filename: "about.html",
+      template: "src/about.html",
+    }),
   ],
   devServer: {
     hot: true,

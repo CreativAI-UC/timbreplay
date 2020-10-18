@@ -1,6 +1,8 @@
 import * as d3 from "d3"
 import "../index.html"
+import "../about.html"
 import "../css/main.css"
+import "../css/about.css"
 import data from "../assets/points.json"
 import "./interactions.js"
 import "../assets/grip-lines-1white.svg"
