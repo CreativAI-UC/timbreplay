@@ -2,6 +2,7 @@ import { toggleRec, RECORDING } from "./recording"
 import { dynamic_names } from "./constants"
 /* Get the documentElement (<html>) to display the page in fullscreen */
 var elem = document.documentElement
+let timeoutPool=[]
 
 /* View in fullscreen */
 function openFullscreen() {
@@ -151,13 +152,10 @@ document.onkeyup = function (e) {
 
 // A function that change this tooltip when the user hover a point.
 // Its opacity is set to 1: we can now see it. Plus it set the text and position of tooltip depending on the datapoint (d)
-export const mouseover = (tooltip) =>
-  function () {
-    tooltip.style("opacity", 1)
-  }
-
-export const mousemove = (tooltip, d3, documentWidth) =>
+export const mouseover = (tooltip, d3, documentWidth) =>
   function (d) {
+    timeoutPool.forEach((timeoutId)=>window.clearTimeout(timeoutId))
+    tooltip.style("opacity", 1).style("z-index",2)
     tooltip
       .html(
         '<div style="height:auto;width:40px;z-index:2;" onclick=\'playAudioById("audio_' +
@@ -182,14 +180,22 @@ export const mousemove = (tooltip, d3, documentWidth) =>
       ) // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
       .style("top", d3.mouse(this)[1] + "px")
   }
-
 // // A function that change this tooltip when the leaves a point: just need to set opacity to 0 again
 export const mouseleave = (tooltip) =>
   function () {
-    setTimeout(
-      () => tooltip.transition().duration(200).style("opacity", 0),
-      1600
-    )
+    //if (timeoutSet==false){
+    //  console.log("timeout set")
+     // timeoutSet=true
+      const timeoutId = window.setTimeout(() => {
+        console.log("timeout done")
+        tooltip.transition().duration(200).style("opacity", 0)
+        tooltip.style("z-index", -1)
+ //       timeoutSet=false
+      }, 4000)
+      timeoutPool.push(timeoutId)
+    //}
+    
+    
   }
 
 function playAudioById(audioId) {

@@ -20,7 +20,7 @@ import "../assets/favicon_io/favicon-32x32.png"
 import "../assets/Pridi-Light.ttf"
 import { colormap, chords } from "./constants"
 import { addPoint, toggleRec } from "./recording"
-import {mouseover,mousemove,mouseleave} from "./interactions"
+import {mouseover,mouseleave} from "./interactions"
 const width = window.innerWidth
 const height = window.innerHeight
 
@@ -99,8 +99,7 @@ svg
   .style("fill", function (d) {
     return colormap[d.chord]
   })
-  .on("mouseover", mouseover(tooltip))
-  .on("mousemove", mousemove(tooltip,d3, width))
+  .on("mouseenter", mouseover(tooltip, d3, width))
   .on("mouseleave", mouseleave(tooltip))
   
 d3.select("#dataviz").on("click", addPoint(d3, svg, x, y))
