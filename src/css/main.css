@@ -522,14 +522,6 @@ p.helper-text {
   align-self: center;
   margin: 40px 0px;
 }
-.chord-delete g {
-  position: absolute;
-  left: 0%;
-  right: 28.57%;
-  top: 28.26%;
-  bottom: 28.26%;
-  fill: #c83b3b;
-}
 
 .tooltip {
   position: absolute;

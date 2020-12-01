@@ -13,24 +13,30 @@
 </head>
 
 <body>
+  <!-- Fullscreen button -->
   <button id="fullscreen-button"><img width="24px"  src="./assets/iconfinder_fullscreen_alt_118669.svg" alt="fullscreen"></button>
+  <!-- Title -->
   <h1 id="title-text">TimbreNet</h1>
+  <!-- Recording label -->
   <p id="recording-label" class="hide">Recording</p>
+  <!-- About link -->
   <a href="/about.html">
     <button id="help-button"><img width="24px" src="./assets/Icon-round-Question_mark.svg" alt="help"></button>
   </a>
 
-  
+  <!-- Main control box -->
   <div id="control-box">
     <div id="drag-section">
       <img src="./assets/grip-lines-1white.svg" alt="Grip lines">
     </div>
+    <!-- Buttons -->
     <div id="button-container">
       <button onclick="SelectBox(1)" class="selected" >Create</button>
       <!-- <button onclick="SelectBox(2)">Filter</button> -->
       <button onclick="SelectBox(2)">Legend</button>
     </div>
     <div id="box-content">
+      <!-- Pre recording box -->
       <div id="box-create" class="box-fill">
         <button id="record-button">Record</button>
         <p id="record-text" class="helper-text">or press ctrl+R to record</p>
@@ -125,9 +131,13 @@
         
         
       <!-- </div> -->
+
+      <!-- Legend box -->
       <div id="box-legend" class="box-fill hide"> </div>
+      <!-- Recording box -->
       <div id="box-record" class="box-fill hide">
         <div id="record-control">
+          <!-- Play all button -->
           <div id="play-button" onclick="playAll()">
               <svg xml:space="preserve" viewBox="0 0 100 100" y="0" x="0" xmlns="http://www.w3.org/2000/svg" id="圖層_1" version="1.1"
                 width="128px" height="128px" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -140,7 +150,8 @@
                 </g>
               </svg>
           </div>
-          <div id="download-button">
+          <!-- Download button. To be implemented from backend -->
+          <!-- <div id="download-button">
             <svg id="Layer_1" style="enable-background:new 0 0 48 48;" version="1.1" viewBox="0 0 48 48" xml:space="preserve"
               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <g>
@@ -148,7 +159,8 @@
                 <polygon points="34.7,25.7 33.3,24.3 25,32.6 25,2 23,2 23,32.6 14.7,24.3 13.3,25.7 24,36.4  " />
               </g>
             </svg>
-          </div>
+          </div> -->
+          <!-- Stop recording button -->
           <div id="stop-button" onclick="stopRec()" style="z-index: 2;">
             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;"
               xml:space="preserve">
@@ -158,6 +170,7 @@
               </svg>
           </div>
         </div>
+        <!-- Template element for each chord row -->
         <template id="chord-template">
           <div class="recorded-chord">
             <div class="drag-chord">
@@ -184,22 +197,16 @@
               </svg>
             </div>
             <div class="chord-delete" onclick="deletePoint(this)">
-              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
-          
-                <g>
-                  <polygon points="612,36.004 576.521,0.603 306,270.608 35.478,0.603 0,36.004 270.522,306.011 0,575.997 35.478,611.397 
-                                  				306,341.411 576.521,611.397 612,575.997 341.459,306.011 			" />
-                </g>
-          
-              </svg>
+              <img src="./assets/chord-delete.svg" alt="Delete">
             </div>
           </div>
         </template>
         
       </div>
+
     </div>
   </div>
+  <!-- Node to mount D3 -->
   <div id="dataviz"></div>
 </body>
 

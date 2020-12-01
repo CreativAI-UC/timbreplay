@@ -152,7 +152,7 @@ document.onkeyup = function (e) {
 
 // A function that change this tooltip when the user hover a point.
 // Its opacity is set to 1: we can now see it. Plus it set the text and position of tooltip depending on the datapoint (d)
-export const mouseover = (tooltip, d3, documentWidth) =>
+export const mouseenter = (tooltip, d3, documentWidth) =>
   function (d) {
     timeoutPool.forEach((timeoutId)=>window.clearTimeout(timeoutId))
     tooltip.style("opacity", 1).style("z-index",2)
@@ -183,14 +183,10 @@ export const mouseover = (tooltip, d3, documentWidth) =>
 // // A function that change this tooltip when the leaves a point: just need to set opacity to 0 again
 export const mouseleave = (tooltip) =>
   function () {
-    //if (timeoutSet==false){
-    //  console.log("timeout set")
-     // timeoutSet=true
       const timeoutId = window.setTimeout(() => {
         console.log("timeout done")
         tooltip.transition().duration(200).style("opacity", 0)
         tooltip.style("z-index", -1)
- //       timeoutSet=false
       }, 4000)
       timeoutPool.push(timeoutId)
     //}
