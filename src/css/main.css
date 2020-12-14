@@ -156,9 +156,9 @@ body {
   order: 0;
   align-self: center;
   margin: 0px 0px;
-
-  cursor: move;
   z-index: 2;
+  cursor: move;
+  user-select: none;
 }
 
 #button-container {
@@ -454,6 +454,8 @@ p.helper-text {
   order: 1;
   align-self: center;
   margin: 0px 10px;
+  cursor: move;
+  user-select: none;
 }
 .drag-chord {
   position: static;

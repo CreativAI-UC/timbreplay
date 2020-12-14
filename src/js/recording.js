@@ -1,6 +1,8 @@
+import {  mouseDownHandler } from "./interactions"
 export let RECORDING = false
 let CHORD_COUNT = 1
 const DOMAIN = "http://127.0.0.1:8000"
+//const DOMAIN = "https://timbreplay-backend-zivzm7dwda-uc.a.run.app"
 
 async function fetchAudio(x, y) {
   const requestOptions = {
@@ -35,6 +37,8 @@ export function addPoint(d3, svg, scaleX, scaleY) {
       const clickedX = scaleX.invert(mouse[0])
       const clickedY = scaleY.invert(mouse[1])
 
+      const id = btoa(clickedX.toString() + clickedY.toString())
+
       const new_point = svg
         .append("rect")
         .attr("x", mouse[0] - 16)
@@ -42,6 +46,7 @@ export function addPoint(d3, svg, scaleX, scaleY) {
         .attr("width", 32)
         .attr("height", 32)
         .attr("fill", "#de8a0d")
+        .attr("id", "dot:" + id)
 
       new_point
         .transition()
@@ -76,10 +81,13 @@ export function addPoint(d3, svg, scaleX, scaleY) {
       title.innerHTML = `Note ${CHORD_COUNT}`
 
       container.appendChild(row)
-      const id = btoa(clickedX.toString() + clickedY.toString())
+
       const lastRow = container.querySelector(".recorded-chord:last-child")
       lastRow.id = id
-      lastRow.querySelector(".chord-delete").id = id
+      // make row draggable https://htmldom.dev/drag-and-drop-element-in-a-list/
+      lastRow.addEventListener("mousedown", mouseDownHandler(id))
+
+      lastRow.querySelector(".chord-delete").id = "delete:" + id
       playButton.appendChild(audio)
       CHORD_COUNT += 1
     }
@@ -87,9 +95,12 @@ export function addPoint(d3, svg, scaleX, scaleY) {
 }
 
 export function deletePoint(deleteButton) {
-  const id = deleteButton.id
+  let id = deleteButton.id
+  id = id.replace("delete:", "")
   const fullRow = document.getElementById(id)
   fullRow.remove()
+  const dot = document.getElementById('dot:'+id)
+  dot.remove()
 }
 
 export function toggleRec() {

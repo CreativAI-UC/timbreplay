@@ -135,10 +135,10 @@
       <!-- Legend box -->
       <div id="box-legend" class="box-fill hide"> </div>
       <!-- Recording box -->
-      <div id="box-record" class="box-fill hide">
-        <div id="record-control">
+      <div id="box-record" class="box-fill hide" >
+        <div id="record-control"> 
           <!-- Play all button -->
-          <div id="play-button" onclick="playAll()">
+          <div id="play-button" onclick="playAll()" >
               <svg xml:space="preserve" viewBox="0 0 100 100" y="0" x="0" xmlns="http://www.w3.org/2000/svg" id="圖層_1" version="1.1"
                 width="128px" height="128px" xmlns:xlink="http://www.w3.org/1999/xlink"
                 style="width:100%;height:100%;background-color:transparent;animation-play-state:paused">
@@ -173,6 +173,7 @@
         <!-- Template element for each chord row -->
         <template id="chord-template">
           <div class="recorded-chord">
+            <!-- draggable="true" -->
             <div class="drag-chord">
               <svg id="Layer_1" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -184,7 +185,10 @@
               </svg>
             </div>
             <p class="chord-name"></p>
-            <div class="chord-play" onclick="playSound(this)">
+            <div class="chord-play" onclick="playSound(this)"  onmousedown="event.preventDefault();
+                        event.stopPropagation();" onmousemove="event.preventDefault();
+                        event.stopPropagation();" onmouseup="event.preventDefault();
+                        event.stopPropagation();">
               <svg xml:space="preserve" viewBox="0 0 100 100" y="0" x="0" xmlns="http://www.w3.org/2000/svg" id="圖層_1"
                 version="1.1" width="128px" height="128px" xmlns:xlink="http://www.w3.org/1999/xlink"
                 style="width:100%;height:100%;background-color:transparent;animation-play-state:paused">
