@@ -1,7 +1,7 @@
 import data from "../../assets/points.json"
 import * as d3 from "d3"
 import { colormap } from "../constants"
-import { addPoint, toggleRec } from "../recording"
+import { addPoint, toggleRec, DOMAIN } from "../recording"
 import { mouseleave, mouseenter } from "../interactions"
 const width = window.innerWidth
 const height = window.innerHeight
@@ -86,3 +86,8 @@ svg
 
 d3.select("#dataviz").on("click", addPoint(d3, svg, x, y))
 document.getElementById("record-button").addEventListener("click", toggleRec)
+
+// ping the home page of the backend server so it has some time to start befor ethe user starts making generation requests. Ideally the backend should never sleep
+window.onload= function (){
+  fetch(DOMAIN)
+}

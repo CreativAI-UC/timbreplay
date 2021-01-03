@@ -1,8 +1,8 @@
 import {  mouseDownHandler } from "./setup/dragAndDrop"
 export let RECORDING = false
 let CHORD_COUNT = 1
-const DOMAIN = "http://127.0.0.1:8000"
-//const DOMAIN = "https://timbreplay-backend-zivzm7dwda-uc.a.run.app"
+export const DOMAIN = "http://127.0.0.1:8000"
+//export const DOMAIN = "https://timbreplay-backend-zivzm7dwda-uc.a.run.app"
 
 async function fetchAudio(x, y) {
   const requestOptions = {
