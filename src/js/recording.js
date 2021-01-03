@@ -78,7 +78,7 @@ export function addPoint(d3, svg, scaleX, scaleY) {
       audio.src = url
 
       const title = row.querySelector("p.chord-name")
-      title.innerHTML = `Note ${CHORD_COUNT}`
+      title.innerHTML = `Chord ${CHORD_COUNT}`
 
       container.appendChild(row)
 
