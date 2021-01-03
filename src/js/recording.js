@@ -1,4 +1,4 @@
-import {  mouseDownHandler } from "./interactions"
+import {  mouseDownHandler } from "./setup/dragAndDrop"
 export let RECORDING = false
 let CHORD_COUNT = 1
 const DOMAIN = "http://127.0.0.1:8000"
@@ -84,8 +84,9 @@ export function addPoint(d3, svg, scaleX, scaleY) {
 
       const lastRow = container.querySelector(".recorded-chord:last-child")
       lastRow.id = id
-      // make row draggable https://htmldom.dev/drag-and-drop-element-in-a-list/
-      lastRow.addEventListener("mousedown", mouseDownHandler(id))
+      // make drag lines icon draggable https://htmldom.dev/drag-and-drop-element-in-a-list/
+      const draglines=lastRow.children[0]
+      draglines.addEventListener("mousedown", mouseDownHandler(id))
 
       lastRow.querySelector(".chord-delete").id = "delete:" + id
       playButton.appendChild(audio)
