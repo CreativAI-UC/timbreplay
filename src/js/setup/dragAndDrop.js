@@ -18,7 +18,8 @@ const mouseMoveHandler = function (e) {
     // So the next element won't move up
     placeholder = document.createElement("div")
     placeholder.classList.add("placeholder")
-    draggingEle.parentNode.insertBefore(placeholder, draggingEle.nextSibling)
+    placeholder.classList.add("recorded-chord")
+    draggingEle.parentNode.insertBefore(placeholder, draggingEle.nextElementSibling)
 
     // Set the placeholder's height
     placeholder.style.height = `${draggingRect.height}px`

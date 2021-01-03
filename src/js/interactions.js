@@ -206,15 +206,10 @@ export const mouseleave = (tooltip) =>
 function redrawSvg() {
   const svg = document.querySelector("#dataviz>div.svg-container>svg")
 
-  console.log(svg);
-  console.log(window.innerWidth + " " + window.innerHeight)
-  
   svg.setAttribute(
     "viewBox",
     "0 0 " + window.innerWidth + " " + window.innerHeight
   )
-  console.log("changed size");
-
   const body= document.querySelector("body")
   body.setAttribute("width", window.innerWidth)
   body.setAttribute("height", window.innerHeight)
